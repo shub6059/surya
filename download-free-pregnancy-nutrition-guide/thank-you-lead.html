@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Thank You | Surya Hospitals</title>
+<meta name="robots" content="noindex,nofollow"/>
+<meta name="title" content="" />
+<meta name="description" content="Surya Hospital is a pioneer in women and childcare. Our prenatal classes cover many topics from labour management & breastfeeding to yoga during pregnancy." />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103402950-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-103402950-1');
+</script>
+
+</head>
+
+<body>
+<div class="container">
+  <div class="header clearfix">
+    <div class="pull-right header_call_info">For Queries Call Us at:<br/> +91-9772233774/75<br/>+91-141-4333777 </div>
+    <h3 class="text-muted"> <img src="/download-free-pregnancy-nutrition-guide/surya-jaipur-logo.png" height="91" alt="logo"> </h3>
+  </div>
+</div>
+
+<div class="container text-center" id="about_us">
+  <h2 class="my-4 pink_color">Thank you for filling up the form. Our team will get in touch with you on appointment details.</h2><br>
+    <h3 class="text-muted"><a href="https://suryahospitals.com/download-free-pregnancy-nutrition-guide/free-nutrition-guide-surya-jaipur.pdf">
+<img border="0" alt="Free Nutrition Guide Download" src="/download-free-pregnancy-nutrition-guide/img/free-nutrion-guide-download.png" width="541" height="50"></a></h3>
+</div>
+
+<div class="container" >
+  <div class="row marketing" style="display:none;">
+    <div class="col-lg-6">
+      <h4>Subheading</h4>
+      <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+      <h4>Subheading</h4>
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+      <h4>Subheading</h4>
+      <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+    </div>
+    <div class="col-lg-6">
+      <h4>Subheading</h4>
+      <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+      <h4>Subheading</h4>
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+      <h4>Subheading</h4>
+      <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="row">
+      <div class="col-lg-4 col-sm-12 footer_venue">
+        <h4 class="pink_color">Venues</h4>
+        <p>Surya Hospitals, Ram Singh Road (Opposite SMS Hospital),
+Panch Batti, Ashok Nagar, Jaipur, Rajasthan 302001. </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 socialicon text-center"> <a href="https://www.facebook.com/SuryaHospitalsJaipur/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a href="https://twitter.com/suryahospitals"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> <a href="https://www.instagram.com/suryahospitals/"><i class="fa fa-instagram" aria-hidden="true"></i> </a> <a href="https://in.pinterest.com/suryahospitals/"><i class="fa fa-pinterest-square" aria-hidden="true"></i> </a> <a href="https://www.youtube.com/channel/UCd4zax49Ge9KECO48XyruVA"><i class="fa fa-youtube-square" aria-hidden="true"></i> </a> </div>
+      <!--<p>&copy; 2016 Surya hospitals, Inc.</p>--> </div>
+  </footer>
+</div>
+<!-- /container -->
+
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+<link rel="stylesheet" href="css/bootstrap-theme.min.css" >
+<link rel="stylesheet" href="css/font-awesome.min.css" >
+<link rel="stylesheet" href="css/style.css" >
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js" ></script> 
+<script>
+jQuery(document).on( "submit", "#signup_demo", function(){
+	var error;
+	var name = jQuery("#name");
+	var email = jQuery("#email");
+	var phone = jQuery("#phone");
+
+	if(name.val() == '' ){showerror(name);error = true;} else {hideerror(name);}
+	if(email.val() == '' ){showerror(email);error = true;} else {
+		if( validateEmail(email.val()) ){
+			hideerror(email);
+		} else {
+			showerror(email);error = true;
+		}
+	}
+	if(phone.val() == '' ){showerror(phone);error = true;} else {
+		if( validatePhone(phone.val()) ){
+			hideerror(phone);
+		} else {
+			showerror(phone);error = true;
+		}
+	}
+
+	if(error == true){
+		return false;
+	}
+	
+	jQuery(".msggreen").hide();
+	jQuery.ajax({
+		url : "action.php",
+		type : 'POST',
+		data : jQuery(this).serialize(),
+		success:function(result){
+			jQuery(".msggreen").show();
+			jQuery("#signup_demo")[0].reset();
+		}
+	});
+	return false;
+});
+function showerror(element){
+	element.css("border-color","red");
+}
+function hideerror(element){
+	element.css("border-color","");
+}
+function validatePhone(value) {
+    var filter = /^[0-9-+]+$/;
+    if (filter.test(value)) {
+		if(value.length > 6 && value.length < 11) {	return true;} else {	return false;}
+    } else {
+        return false;
+	}
+}
+function validateEmail(value){
+	var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+	if (reg.test(value) == false) {
+		return false;
+	}
+	return true;
+}
+jQuery(document).on("click", "#footer_btn_signup", function(){
+	var body = jQuery("html, body");
+	body.stop().animate({scrollTop:100}, 500, 'swing', function() {
+	});
+});
+</script>
+<!-- Google Code for Form Fill Up Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 801561494;
+var google_conversion_label = "vkAOCPnp2YMBEJa3m_4C";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/801561494/?label=vkAOCPnp2YMBEJa3m_4C&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+</body>
+</html>

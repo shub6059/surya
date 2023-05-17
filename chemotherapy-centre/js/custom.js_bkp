@@ -1,0 +1,8 @@
+$(document).scroll(function () {
+  var y = $(this).scrollTop();
+  if (y > 450) {
+    $(".call-mob").addClass("show-btn");
+  } else {
+    $(".call-mob").removeClass("show-btn");
+  }
+});

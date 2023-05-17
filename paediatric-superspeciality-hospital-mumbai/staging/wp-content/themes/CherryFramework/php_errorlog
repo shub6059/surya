@@ -1,0 +1,16 @@
+[08-Nov-2017 16:34:48 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/suryahos/public_html/wp-content/themes/CherryFramework/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/suryahos/public_html/wp-content/themes/CherryFramework/index.php on line 2
+[11-Nov-2017 02:20:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/suryahos/public_html/wp-content/themes/CherryFramework/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/suryahos/public_html/wp-content/themes/CherryFramework/index.php on line 2
+[22-Nov-2017 04:00:26 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/suryahos/public_html/staging/wp-content/themes/CherryFramework/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/suryahos/public_html/staging/wp-content/themes/CherryFramework/index.php on line 2
+[23-Nov-2017 04:12:46 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/suryahos/public_html/staging/wp-content/themes/CherryFramework/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/suryahos/public_html/staging/wp-content/themes/CherryFramework/index.php on line 2

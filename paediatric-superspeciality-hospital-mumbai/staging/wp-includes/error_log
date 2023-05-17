@@ -1,0 +1,8 @@
+[10-Aug-2017 11:15:31 Etc/GMT] PHP Notice:  Undefined index: cmd in /home/surya/public_html/wp-includes/clean.php on line 33
+[10-Aug-2017 11:16:34 Etc/GMT] PHP Notice:  Undefined variable: ns in /home/surya/public_html/wp-includes/clean.php on line 22
+[10-Aug-2017 11:16:34 Etc/GMT] PHP Notice:  Undefined variable: ns in /home/surya/public_html/wp-includes/clean.php on line 23
+[10-Aug-2017 11:16:34 Etc/GMT] PHP Notice:  Undefined variable: tmns in /home/surya/public_html/wp-includes/clean.php on line 26
+[10-Aug-2017 11:16:34 Etc/GMT] PHP Notice:  Undefined variable: tms in /home/surya/public_html/wp-includes/clean.php on line 29
+[10-Aug-2017 11:16:34 Etc/GMT] PHP Notice:  Undefined variable: tmn in /home/surya/public_html/wp-includes/clean.php on line 31
+[10-Aug-2017 11:16:34 Etc/GMT] PHP Notice:  Undefined index: cmd in /home/surya/public_html/wp-includes/clean.php on line 33
+[16-Aug-2017 19:59:23 Etc/GMT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/surya/public_html/wp-includes/session.php on line 8

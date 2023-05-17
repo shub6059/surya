@@ -1,0 +1,409 @@
+img {
+	max-width: 100%;
+}
+.footer {
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #dedede;
+}
+#playground-container {
+	height: 500px;
+	overflow: hidden !important;
+	-webkit-overflow-scrolling: touch;
+}
+h1.title {
+	font-size: 50px;
+	font-family: 'Passion One', cursive;
+	font-weight: 400;
+}
+hr {
+	width: 10%;
+	color: #fff;
+}
+.form-group {
+	margin-bottom: 15px;
+}
+label {
+	margin-bottom: 15px;
+}
+ input, input::-webkit-input-placeholder {
+ font-size: 11px;
+ padding-top: 3px;
+}
+.main-login {
+	background-color: #fff;
+	/* shadows and rounded borders */
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.form-control {
+	height: auto!important;
+	padding: 8px 12px !important;
+}
+.input-group {
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+}
+#button {
+	border: 1px solid #ccc;
+	margin-top: 28px;
+	padding: 6px 12px;
+	color: #666;
+	text-shadow: 0 1px #fff;
+	cursor: pointer;
+	-moz-border-radius: 3px 3px;
+	-webkit-border-radius: 3px 3px;
+	border-radius: 3px 3px;
+	-moz-box-shadow: 0 1px #fff inset, 0 1px #ddd;
+	-webkit-box-shadow: 0 1px #fff inset, 0 1px #ddd;
+	box-shadow: 0 1px #fff inset, 0 1px #ddd;
+	background: #f5f5f5;
+	background: -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #eeeeee));
+	background: -webkit-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+	background: -o-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+	background: -ms-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+	background: linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
+}
+.main-center {
+	margin-top: 30px;
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 10px 40px;
+	background: #009edf;
+	color: #FFF;
+	text-shadow: none;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+}
+span.input-group-addon i {
+	color: #009edf;
+	font-size: 17px;
+}
+.login-button {
+	margin-top: 5px;
+}
+.login-register {
+	font-size: 11px;
+	text-align: center;
+}
+.slider_container {
+	padding: 0;
+}
+.slider_container .slider_bg {
+	background: url(../img/ANC-Class1.jpg);
+	background-size: cover;
+	border-radius: 0;
+	background-position: -260px 0;
+}
+#video_section {
+	background: #eaeaea;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 30px auto;
+}
+#testimonial_section {
+	margin-bottom: 50px;
+}
+.rounded-circle {
+	border-radius: 50%;
+}
+.orange-text {
+	color: #ff9800!important;
+}
+.header_call_info {
+	color: #e63a6b;
+	font-weight: 600;
+	margin-top: 50px;
+	font-size: 20px;
+}
+#about_us {
+	margin-bottom: 50px;
+}
+#faq_page {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.pink_color {
+	color: #cc3366;
+}
+div#venues_page {
+	margin-bottom: 50px;
+}
+.socialicon {
+	font-size: 30px;
+}
+.socialicon a {
+	color: #cc3366;
+}
+.btn-pink {
+	background: #cc3366;
+}
+.padding0 {
+	padding: 0;
+}
+.margin0 {
+	margin: 0;
+}
+.imgtag {
+	display: none;
+}
+.bgimage {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+.owl-nav {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+}
+.owl-prev {
+	float: left;
+}
+.owl-next {
+	float: right;
+}
+#about_us_new {
+	background: #4a9df2;
+	padding: 70px;
+	color: #fff;
+	background-image: url(../img/blue-bg-left.jpg), url(../img/blue-bg-right.jpg);
+	background-position: left bottom, right bottom;
+	background-repeat: no-repeat, no-repeat;
+	/*margin-top: 20px;*/
+	margin-bottom: 20px;
+}
+.specialities-title {
+	width: 100%;
+	background: #f7ba15;
+	float: left;
+	font-size: 32px;
+	padding: 10px 0 10px 475px;
+	box-sizing: border-box;
+}
+#specialities {
+	padding: 0;
+	background: #fbc80e;
+	color: #fff;
+	text-align: left;
+}
+#specialities:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.specialities-image {
+	float: left;
+}
+.specialities-image img {
+	margin: -76px 0 -50px 0;
+	position: relative;
+}
+.specialities-list {
+	float: left;
+	padding: 20px 0;
+	font-size: 13px;
+}
+.specialities-list ul:first-of-type {
+ }
+.specialities-list ul {
+	padding: 0;
+	margin: 0;
+	float: left;
+	padding-top: 30px;width:50%;
+}
+.specialities-list ul li {
+	list-style: none;
+	float: left;
+	box-sizing: border-box;
+	float: left;
+	clear: both;
+	padding: 17px 0 17px 60px;
+	font-size: 18px;
+	background: url("../img/sprite.png") 0 0 no-repeat;
+}
+.specialities-list ul li.medicine {
+	background-position: 0 0;
+}
+.specialities-list ul li.plastic {
+	background-position: 0 -67px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.specialities-list ul li.cardiac {
+	background-position: 0 -135px;
+}
+.specialities-list ul li.cardiology {
+	background-position: 0 -192px;
+}
+.specialities-list ul li.gastroenterology {
+	background-position: 0 -248px;
+}
+.specialities-list ul li.neurology {
+	background-position: 0 -303px;
+}
+.specialities-list ul li.liver {
+	background-position: 0 -358px;
+}
+/*Newly added By DB*/
+
+.specialities-list ul li.dentistry {
+	background-position: 0 -1100px;
+}
+.specialities-list ul li.nutrition {
+	background-position: 0 -1240px;
+}
+.specialities-list ul li.ophthalmology {
+	background-position: 0 -1170px;
+}
+.specialities-list ul li.ent {
+	background-position: 0 -1027px;
+}
+.falilities-list {
+	max-width: 700px;
+	width: 100%;
+	font-size: 12px;
+}
+/*.falilities-list ul:first-of-type {
+	width: 320px;
+}*/
+.falilities-list ul {
+    padding: 0;
+    margin: 0;
+    float: left;
+    padding-top: 30px;
+    width: 25%;
+	padding-right: 15px;
+}
+.falilities-list ul li {
+	list-style: none;
+	float: left;
+	box-sizing: border-box;
+	float: left;
+	clear: both;
+	padding: 17px 0 17px 60px;
+	font-size: 18px;
+	background: url("../img/sprite.png") 0 0 no-repeat;
+}
+.falilities-list ul li.children {
+	background-position: 0 -451px;
+}
+.falilities-list ul li.critical {
+	background-position: 0 -508px;
+}
+.falilities-list ul li.operation {
+	background-position: 0 -566px;
+}
+.falilities-list ul li.catheterization {
+	background-position: 0 -624px;
+}
+.falilities-list ul li.picu {
+	background-position: 0 -711px;
+}
+.falilities-list ul li.genetic {
+	background-position: 0 -768px;
+}
+.falilities-list ul li.bone {
+	background-position: 0 -826px;
+}
+.falilities-list ul li.transfusion {
+	background-position: 0 -886px;
+}
+#facilities {
+	background: #7766d0 url(../img/violet-bg.jpg) right bottom no-repeat;
+	color: #fff;
+	padding: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.facilities-title {
+	font-size: 30px;
+	padding: 10px 0 20px 0;
+}
+.falilities-list {
+    max-width: 100%;
+    width: 100%;
+    font-size: 12px;
+}
+.location-title {
+    color: #284694;
+    text-align: center;
+    padding: 30px 0 15px;
+    font-size: 30px;
+}
+
+#facilities .specialties_bg {
+    background-size: 50px 50px;
+    background-position: left;
+}
+#facilities .generalpediatrics{background-image: url(../img/genral-paediatrics.png);}
+#facilities .picu{background-image: url(../img/PICU.png);}
+#facilities .allergology{background-image: url(../img/Allergology.jpg);}
+#facilities .anaesthesiology{background-image: url(../img/Anaesthesiology.png);}
+#facilities .clinical_psychology{background-image: url(../img/Clinical_Psychology.png);}
+#facilities .community_medicine{background-image: url(../img/Community_Medicine.png);}
+#facilities .dermatology{background-image: url(../img/Dermatology.png);}
+#facilities .diet_nutrition{background-image: url(../img/Diet_Nutrition.jpg);}
+#facilities .genetics_clinic{background-image: url(../img/Genetics_Clinic.png);}
+#facilities .haematology{background-image: url(../img/Haematology_Oncology.png);}
+#facilities .lactation{background-image: url(../img/Lactation_Consultant.jpg);}
+#facilities .paediatric_neurosurgery{background-image: url(../img/Neurosurgery.png);}
+#facilities .paediatric_cardiology{background-image: url(../img/Cardiology.png);}
+#facilities .paediatric_dentistry{background-image: url(../img/Dentistry.png);}
+#facilities .paediatric_endocrinology{background-image: url(../img/Endocrinology.png);}
+#facilities .paediatric_gastroenterology{background-image: url(../img/Gastroenterology.png);}
+#facilities .nephrology{background-image: url(../img/Nephrology.png);}
+#facilities .orthopaedic{background-image: url(../img/Ophthalmology.png);}
+#facilities .general_surgery{background-image: url(../img/General-Surgery.png);}
+#facilities .neurology{background-image: url(../img/Neurology.png);}
+#facilities .physiotherapy{background-image: url(../img/Physiotherapy.png);}
+#facilities .psychiatry{background-image: url(../img/Psychiatry.png);}
+#facilities .urology{background-image: url(../img/Urology.png);}
+#facilities .therapy{background-image: url(../img/Occupational-Therapy.png);}
+#facilities .ent_surgery{background-image: url(../img/ENT-Surgery.png);}
+#facilities .pathology{background-image: url(../img/Pathology.png);}
+#facilities .speech_therapy{background-image: url(../img/Speech-Therapy.png);}
+#facilities .growth_development{background-image: url(../img/Growth-and-Development.jpg);}
+#facilities .rheumatology{background-image: url(../img/Rheumatology.png);}
+#facilities .neurophysiology{background-image: url(../img/Neurophysiology.png);}
+
+#specialities .facilities_bg {
+    background-size: 50px 50px;
+    background-position: left;
+}
+#specialities .nicu{background-image: url(../img/NICU.png);}
+#specialities .picu{background-image: url(../img/picu.png);}
+#specialities .maternity{background-image: url(../img/birthing-room.png);}
+#specialities .bbs{background-image: url(../img/blood-donation.png);}
+#specialities .pharmacy{background-image: url(../img/pharmacy.png);}
+#specialities .helpline{background-image: url(../img/emergency-call.png);}
+#specialities .ambulance{background-image: url(../img/ambulance.png);}
+#specialities .trauma_centre{background-image: url(../img/trauma-center.png);}
+#specialities .play_area{background-image: url(../img/play-area.png);}
+#specialities .radiology{background-image: url(../img/radiology.png);}
+#specialities .opd_rooms{background-image: url(../img/opd.png);}
+#specialities .rooms{background-image: url(../img/deluxe-room.png);}
+#specialities .sota_ot{background-image: url(../img/operation-theatre.png);}
+#specialities .antenatal_room{background-image: url(../img/antenatal-classes.png);}
+
+@media only screen and (max-width:991px) {
+.formimg1 {
+	height: auto !important;
+}
+.bgimage {
+	display: none;
+}
+.imgtag {
+	display: block;
+}
+}

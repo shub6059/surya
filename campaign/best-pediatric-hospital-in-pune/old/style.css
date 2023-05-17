@@ -1,0 +1,240 @@
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+.left-backimg{
+	background-image: url('images/back-01.png');
+	    height: 694px;
+}
+.head-font{
+	font-size:10px;
+	line-height: 10px;
+	text-align: left;
+}
+
+.zoom {
+/*  padding: 50px;*/
+/*  background-color: green;*/
+  transition: transform .2s; /* Animation */
+ /* width: 200px;
+  height: 200px;*/
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  z-index: 999;
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+.heading-frm{
+        padding-left: 52px;
+            padding-top: 69px;
+}
+span.text-lft-hd {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+span.text-lft-hd1 {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.carousel-control.left {
+ background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);}
+
+    .carousel-control.right {
+   
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);}
+   .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  /*  padding: 56px;*/
+/*     padding: 30px 56px 0px 60px;*/
+    text-align: center;
+}
+h4.text-lft-hd {
+      padding: 55px 21px 0px 50px;
+    line-height: 35px;
+    font-size: 27px;
+    color: #fffffff2;
+    font-weight: 600;
+}
+.text-lft-hd-grey{
+	color:#ffffffad;
+	padding-left: 50px;
+}
+.logo {
+    width: 65%;
+
+    margin-left: 36px;
+}
+.form-in {
+    width: 80%;
+    /* padding: 10px; */
+    padding-left: 22px;
+    font-size: 13px;
+ 
+}
+.form-eq{
+		padding-top: 7px;
+}
+.form-eq-sub{
+		padding-top: 30px;
+}
+input.form-in-sub {
+    background: #ed2327;
+    border: none;
+    color: #fff;
+    padding: 6px;
+    	    width: 80%;
+}
+select.form-in {
+    padding: 5px;
+    width: 80%;
+    /* padding: 10px; */
+    padding-left: 22px;
+    font-size: 13px;
+    color: #808080;
+}
+.left-head{
+	padding-top: 50px;
+}
+.left-form{
+	padding-left: 65px;
+	    padding-top: 15px;
+}
+/*.right-header{
+	padding-top: 50px;
+}*/
+.headersec-right{
+	float: right;
+}
+.header-icon{
+width:37px;
+}
+.drop-head{
+	color:#000;
+}
+.right-about{
+	 padding: 22px 85px 0px 85px;
+}
+.about-head{
+	margin-bottom: 0px;
+}
+.testimmonial{
+	padding-top: 40px;
+}
+
+.left-carousel{
+	padding-left: 0px;
+}
+
+.head-leftcarousel{
+	margin-bottom: 0px;
+}
+.carousel-left{
+	 padding: 20px 10px 10px 10px;
+}
+.carousel-pd{
+	padding: 10px;
+}
+.carousel-con{
+	width:30px;
+}
+.right-carousel{
+	margin-bottom: 0px;
+}
+.carousel-right{
+	padding: 20px 10px 10px 10px;
+}
+.right-carouselimg{
+	width:100%;
+}
+.content {
+    text-align: justify;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)  
+{
+.right-about {
+     padding: 20px; 
+}
+.carousel-left {
+     padding: 0px; 
+}
+.carousel-right {
+    padding: 0px; 
+}
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 9px;}
+    .col-md-8.head-font {
+    text-align: center;
+        padding-top: 10px;
+}
+.left-form {
+     padding-left: 67px;
+}
+.text-lft-hd-grey {
+ 
+    padding-left: 50px;
+}
+h4.text-lft-hd {
+
+    padding-left: 50px;
+}
+
+    .logo {
+    width: 65%;
+    margin-left: 30px;
+}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+.left-form {
+      padding-left: 66px;
+}
+h4.text-lft-hd {
+    padding: 58px 21px 0px 105px;}
+    .text-lft-hd-grey {
+    color: #ffffffad;
+    padding-left: 105px;
+}
+span.text-lft-hd {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+span.text-lft-hd1 {
+    
+    font-size: 12px;
+}
+
+.logo {
+    width: 57%;
+    margin-left: 74px;
+}
+.col-md-8.head-font {
+    text-align: center;
+}
+
+}

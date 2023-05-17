@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Surya Hospital</title>
+    <link rel="shortcut icon" type="image/png" href="img/fav.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css?ver=1.21" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/3f7fd075f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="py-md-2 py-1">
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-3 col-5">
+            <a href="#">
+              <img class="img-fluid logo-img" src="img/logo_.png" />
+            </a>
+          </div>
+          <div class="col-md-6 d-none pe-0 text-end col-2">
+            <img class="img-fluid" src="img/nabl.png" />
+          </div>
+          <div class="col-md-2 ps-0 col-5 pb-md-0 pb-0 text-end">
+            <p class="mb-0 fw-700 lh-19 f-16 f-sm-14 clrGrey">Call Now</p>
+            <a
+              href="tel:+918691008860"
+              class="clrRed f-21 f-sm-17 lh-24 no-underline"
+            >
+              <span class="d-inline-block fw-700">86910 08860</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="py-4 py-md-4 banner-sec">
+      <div class="container-fluid">
+        <div class="row justify-content-between pb-0 pb-md-0">
+          <div class="col-md-12">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md-5 pt-md-0">
+                <div class="text-start text-md-start">
+                  <p
+                    class="fw-700 text-md-start text-center f-sm-18 f-30 clrGreyDark shadow-head mb-md-3 mb-1"
+                  >
+                    Dr. Advani Chemotherapy Centre
+                  </p>
+                  <p
+                    class="fw-700 text-md-start text-center mb-md-1 mb-0 f-sm-17 f-20 text-capitalise clrGreyDark"
+                  >
+                    A Complete End-To-End
+                  </p>
+
+                  <p
+                    class="fw-700 text-md-start text-center mb-md-2 mb-2 f-sm-25 f-45 text-capitalise l-sm-36 lh-42 clrBlueDark"
+                  >
+                    Chemotherapy <br class="d-none d-mb-block" />
+                    Solution
+                  </p>
+                  <p
+                    class="fw-700 d-none d-md-block text-md-start text-center mb-md-2 mb-2 f-sm-15 f-20 text-capitalise clrGreyDark"
+                  >
+                    For An Unparalleled Treatment Experience
+                  </p>
+                  <p
+                    class="fw-400 d-none d-md-block text-md-start text-start f-sm-14 f-15 mb-md-3 mb-3 text-black"
+                  >
+                    Housing a visionary cancer care team that's spearheaded by
+                    pioneer oncologist
+                    <strong class="clrRed"
+                      >Padma Bhushan Dr. Suresh Advani</strong
+                    >, Dr. Advani Chemotherapy Centre is the perfect
+                    amalgamation of <strong>35 years</strong> of Surya
+                    Hospital's medical excellence and a world-class
+                    infrastructure.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 d-none d-md-block">
+                <img class="img-fluid" src="img/banner-img.svg" />
+              </div>
+
+              <div class="col-md-4 order-mob-3 form-cov">
+                <form
+                  class="px-md-4 ms-md-4 px-4 align-items-center justify-content-center py-md-4 py-3 mb-md-0 mb-0 mt-0 mt-md-0"
+                  id="call-back-form"
+                  method="POST"
+                  action=""
+                >
+                  <div class="col-md-12">
+                    <h4 class="clrBlueDark mb-4 mb-md-4 fw-700 f-16 f-sm-15">
+                      Please Fill The Details
+                    </h4>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group mb-3 mb-md-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input
+                        type="text"
+                        class="form-control name-f"
+                        name="name"
+                        id="name"
+                        required
+                      />
+                      <span class="name_err"></span>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group mb-3 mb-md-3">
+                      <label for="phone" class="form-label"
+                        >Mobile Number</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control"
+                        onkeypress="return onlyNumberKey(event)"
+                        name="phone"
+                        id="phone"
+                        required
+                        minlength="10"
+                        maxlength="10"
+                        pattern="[0-9]{10}"
+                        oninvalid="setCustomValidity('Phone Number is invalid')"
+                        onchange="try{setCustomValidity('')}catch(e){}"
+                      />
+                      <span class="phone_err"></span>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="form-group mb-3 mb-md-3">
+                      <label for="phone" class="form-label">Email</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                        oninvalid="setCustomValidity('Email is invalid')"
+                        onchange="try{setCustomValidity('')}catch(e){}"
+                        required
+                      />
+                      <span class="email_err"></span>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group mb-3 mb-md-3">
+                      <label for="phone" class="form-label"
+                        >Comment/Query</label
+                      >
+                      <textarea
+                        class="form-control"
+                        rows="2"
+                        id="query"
+                        name="query"
+                      ></textarea>
+                      <span class="phone_err"></span>
+                    </div>
+                  </div>
+                  <div class="col-md-12 mb-2 mt-md-3 mt-0 pt-md-2 pt-0 mb-md-0">
+                    <button
+                      type="submit"
+                      class="btn text-white f-18 f-sm-16 fw-500 bgBlueDark rounded-3 w-100 btn-block call-btn"
+                    >
+                      Get a Call Back
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pb-2 pb-md-2 banner-ext">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <div class="outer-px">
+              <div class="row">
+                <div
+                  class="col-md-3 col-6 pt-md-3 pt-2 pb-2 border border-1 border-top-0"
+                >
+                  <div class="d-flex align-items-center">
+                    <div class="pe-md-3 pe-2">
+                      <img src="img/doctor.svg" />
+                    </div>
+                    <div>
+                      <p class="fw-400 m-0 f-18 clrBlueDark2 f-sm-13">
+                        Doctors with 30+ <br />
+                        years of Experience
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 col-6 pt-md-3 pt-2 pb-2 border border-1 border-top-0 border-start-0"
+                >
+                  <div class="d-flex align-items-center">
+                    <div class="pe-md-3 pe-2">
+                      <img src="img/dedicated.svg" />
+                    </div>
+                    <div>
+                      <p class="fw-400 m-0 f-18 clrBlueDark2 f-sm-13">
+                        Dedicated <br />
+                        Chemo Center
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 col-6 pt-md-3 pt-2 pb-2 border border-1 border-top-0 border-start-0"
+                >
+                  <div class="d-flex align-items-center">
+                    <div class="pe-md-3 pe-2">
+                      <img src="img/chemotherapy.svg" />
+                    </div>
+                    <div>
+                      <p class="fw-400 m-0 f-18 clrBlueDark2 f-sm-13">
+                        Chemotherapy Pharmacy <br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 col-6 pt-md-3 pt-2 pb-2 border border-1 border-top-0 border-start-0"
+                >
+                  <div class="d-flex align-items-center">
+                    <div class="pe-md-3 pe-2">
+                      <img src="img/ambulance.svg" />
+                    </div>
+                    <div>
+                      <p class="fw-400 m-0 f-18 clrBlueDark2 f-sm-13">
+                        24X7 <br />
+                        Ambulance
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-md-4 py-4 dr-details">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <h3 class="f-sm-18 f-25 fw-700 mb-md-1">Meet Our Experts</h3>
+          </div>
+        </div>
+        <div
+          class="row mt-md-0 mt-0 align-items-center justify-content-between"
+        >
+          <div class="col-md-6 ps-md-5 mb-2 mb-md-0">
+            <img
+              class="img-fluid mx-auto d-md-block mt-md-0 mt-1"
+              src="img/dr-suresh.jpg"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="row justify-content-center">
+              <div class="col-md-12">
+                <h3 class="f-sm-18 f-20 fw-600 mb-md-1 mb-1">
+                  Dr. Suresh Advani
+                </h3>
+
+                <p class="f-18 mb-md-4 mb-4 f-sm-15 clrGrey fw-400">
+                  Director - Dept. of Medical Oncology
+                </p>
+                <ul>
+                  <li>More than 50 years of experience in Oncology.</li>
+                  <li>
+                    honoured with
+                    <strong>“padma shri” and "PADMA BHUSHAN"</strong>.
+                  </li>
+                  <li>
+                    Chief of Medical Oncology for 30 Years in TATA Hospital
+                  </li>
+                  <li>Treated more than 2 million+ patients.</li>
+                  <li>
+                    Lifetime Achievement in Oncology by Harvard Medical
+                    International.
+                  </li>
+                </ul>
+                <div class="row mt-4 align-items-center">
+                  <div
+                    class="col-md-4 border border-1 border-top-0 border-bottom-0 border-start-0"
+                  >
+                    <div
+                      class="bgRed d-inline-block me-md-0 me-2 mb-md-2 mb-4 text-center head-bar text-white f-sm-16 f-18 fw-600"
+                    >
+                      Visit Timing
+                    </div>
+                    <p
+                      class="f-15 d-md-block d-inline-block mb-md-0 mb-3 f-sm-14 clrGrey fw-400"
+                    >
+                      <u>Wednesday :- 5 pm - 7 pm</u>
+                    </p>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="mb-4 mb-md-0">
+                      <button
+                        href="#"
+                        class="btn appointment-btn bgRed text-white f-18 fw-600 rounded-1 d-block w-100 f-sm-17"
+                      >
+                        Book an Appointment
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="dr-slider">
+              <div>
+                <div
+                  class="border box-dr border-1 pb-3 px-4 px-md-4 borderbluedark rounded-3"
+                >
+                  <img src="img/dr-shivam.png" class="d-block mx-auto my-3" />
+                  <h4 class="f-14 fw-700 clrGrey text-center">
+                    Dr. Shivam Shingla
+                  </h4>
+                  <p class="f-11 fw-400 clrGrey text-center">
+                    Consultant, Medical <br />
+                    Oncologist
+                  </p>
+                  <a href="#" class="btn-custom appointment-btn f-12"
+                    >Book an Appointment
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="border box-dr border-1 pb-3 px-4 px-md-4 borderbluedark rounded-3"
+                >
+                  <img src="img/dr-parth.png" class="d-block mx-auto my-3" />
+                  <h4 class="f-14 fw-700 clrGrey text-center">
+                    Dr. Parth Ganatra
+                  </h4>
+                  <p class="f-11 fw-400 clrGrey text-center">
+                    Consultant Gynaecologic Cancer Surgeon
+                  </p>
+                  <a href="#" class="btn-custom appointment-btn f-12"
+                    >Book an Appointment
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="border box-dr border-1 pb-3 px-4 px-md-4 borderbluedark rounded-3"
+                >
+                  <img src="img/dr-avinash.png" class="d-block mx-auto my-3" />
+                  <h4 class="f-14 fw-700 clrGrey text-center">
+                    Dr. Avinash Deo
+                  </h4>
+                  <p class="f-11 fw-400 clrGrey text-center">
+                    Consultant, <br />
+                    Medical Oncology
+                  </p>
+                  <a href="#" class="btn-custom appointment-btn f-12"
+                    >Book an Appointment
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="border box-dr border-1 pb-3 px-4 px-md-4 borderbluedark rounded-3"
+                >
+                  <img src="img/dr-samar.png" class="d-block mx-auto my-3" />
+                  <h4 class="f-14 fw-700 clrGrey text-center">
+                    Dr. Samar Gupta
+                  </h4>
+                  <p class="f-11 fw-400 clrGrey text-center">
+                    Consultant Gynaecologic Cancer Surgeon
+                  </p>
+                  <a href="#" class="btn-custom f-12 appointment-btn"
+                    >Book an Appointment
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-md-5 py-4 bgGreenLight">
+      <div class="container-fluid">
+        <div
+          class="row mt-md-0 mt-0 align-items-center justify-content-between"
+        >
+          <div class="col-md-6 d-none d-md-block order-mob-2 mb-4 mb-md-0">
+            <img
+              class="img-fluid me-auto d-md-block mt-md-0 mt-1"
+              src="img/exc.png"
+            />
+          </div>
+          <div class="col-md-6 order-mob-1">
+            <div class="row justify-content-center">
+              <div class="col-md-12">
+                <h3
+                  class="f-sm-16 f-35 clrBlueDark2 fw-700 mb-md-4 mt-0 mt-md-0"
+                >
+                  35+ Years of Excellence
+                </h3>
+
+                <p class="f-18 mb-md-4 lh-24 mb-2 f-sm-14 clrGrey fw-400">
+                  Dr. Advani Chemotherapy Center offers comprehensive
+                  chemotherapy treatment under one roof and follows a
+                  multidisciplinary approach to help you get cancer-free as
+                  quickly as possible. With a mission to make cancer treatment
+                  accessible to all, the treatment charges are convenient and
+                  affordable.
+                </p>
+                <img
+                  class="img-fluid d-block me-auto d-md-none mt-md-0 mt-4 mb-4 mb-md-0"
+                  src="img/exc.png"
+                />
+
+                <div class="my-2 text-center text-md-start">
+                  <span class="f-15 f-sm-13 fw-600">RATED ON</span>
+                  <img class="d-inline-block ms-2" src="img/google.svg" />
+
+                  <img class="d-md-block mt-2" src="img/google-rating.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <h3
+              class="f-sm-16 f-35 clrBlueDark2 text-center fw-700 mb-md-4 mt-4 mb-4 mt-md-5"
+            >
+              Treatments and Specialities
+            </h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 mb-4 mb-md-0 col-6">
+            <div
+              class="border h-100 border-1 borderbluedark py-2 py-md-3 px-2 px-md-4 bgWhite rounded-3"
+            >
+              <img src="img/oncology.svg" class="d-block mx-auto my-3" />
+              <h4
+                class="f-18 f-sm-15 fw-500 mb-md-4 mb-2 clrBlueDark2 text-center"
+              >
+                Medical Oncology Hematology
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4 mb-md-0 col-6">
+            <div
+              class="border h-100 border-1 borderbluedark py-2 py-md-3 px-2 px-md-4 bgWhite rounded-3"
+            >
+              <img src="img/microscope.svg" class="d-block mx-auto my-3" />
+              <h4
+                class="f-18 f-sm-15 fw-500 mb-md-4 mb-2 clrBlueDark2 text-center"
+              >
+                Development Therapeutics & Clinical Research
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div
+              class="border h-100 border-1 borderbluedark py-2 py-md-3 px-2 px-md-4 bgWhite rounded-3"
+            >
+              <img src="img/biological.svg" class="d-block mx-auto my-3" />
+              <h4
+                class="f-18 f-sm-15 fw-500 mb-md-4 mb-2 clrBlueDark2 text-center"
+              >
+                Biological Therapeutics
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div
+              class="border h-100 border-1 borderbluedark py-2 py-md-3 px-2 px-md-4 bgWhite rounded-3"
+            >
+              <img src="img/clinical.svg" class="d-block mx-auto my-3" />
+              <h4
+                class="f-18 f-sm-15 fw-500 mb-md-4 mb-2 clrBlueDark2 text-center"
+              >
+                Clinical Oncology
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4 py-md-4">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <h3
+              class="f-sm-16 f-35 clrBlueDark2 text-center fw-700 mb-md-0 mb-0 mt-0 mt-md-2"
+            >
+              Testimonials
+            </h3>
+          </div>
+        </div>
+
+        <div class="row justify-content-center pt-2 pb-0 pb-md-4">
+          <div class="col-md-12">
+            <div class="patients-slider">
+              <div>
+                <svg
+                  width="95"
+                  height="80"
+                  viewBox="0 0 95 80"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_151_457)">
+                    <path
+                      d="M43.5389 46.8735V68.4809C43.5389 71.4819 42.4885 74.0327 40.3878 76.1335C38.2871 78.2342 35.7362 79.2845 32.7352 79.2845H11.1279C8.12687 79.2845 5.576 78.2342 3.47529 76.1335C1.37458 74.0327 0.324219 71.4819 0.324219 68.4809V28.8674C0.324219 24.9661 1.08385 21.2429 2.60312 17.698C4.12238 14.153 6.17621 11.0864 8.76458 8.49798C11.353 5.9096 14.4196 3.85578 17.9646 2.33652C21.5095 0.81725 25.2327 0.0576172 29.134 0.0576172H32.7352C33.7106 0.0576172 34.5546 0.413988 35.2673 1.12673C35.9801 1.83947 36.3364 2.68351 36.3364 3.65884V10.8613C36.3364 11.8366 35.9801 12.6807 35.2673 13.3934C34.5546 14.1061 33.7106 14.4625 32.7352 14.4625H29.134C25.1576 14.4625 21.7627 15.8692 18.9493 18.6827C16.1358 21.4961 14.7291 24.8911 14.7291 28.8674V30.668C14.7291 32.1685 15.2543 33.444 16.3046 34.4943C17.355 35.5447 18.6304 36.0698 20.1309 36.0698H32.7352C35.7362 36.0698 38.2871 37.1202 40.3878 39.2209C42.4885 41.3216 43.5389 43.8725 43.5389 46.8735ZM93.956 46.8735V68.4809C93.956 71.4819 92.9057 74.0327 90.8049 76.1335C88.7042 78.2342 86.1534 79.2845 83.1523 79.2845H61.545C58.544 79.2845 55.9931 78.2342 53.8924 76.1335C51.7917 74.0327 50.7413 71.4819 50.7413 68.4809V28.8674C50.7413 24.9661 51.501 21.2429 53.0202 17.698C54.5395 14.153 56.5933 11.0864 59.1817 8.49798C61.7701 5.9096 64.8367 3.85578 68.3817 2.33652C71.9267 0.81725 75.6498 0.0576172 79.5511 0.0576172H83.1523C84.1277 0.0576172 84.9717 0.413988 85.6844 1.12673C86.3972 1.83947 86.7536 2.68351 86.7536 3.65884V10.8613C86.7536 11.8366 86.3972 12.6807 85.6844 13.3934C84.9717 14.1061 84.1277 14.4625 83.1523 14.4625H79.5511C75.5748 14.4625 72.1799 15.8692 69.3664 18.6827C66.553 21.4961 65.1462 24.8911 65.1462 28.8674V30.668C65.1462 32.1685 65.6714 33.444 66.7218 34.4943C67.7721 35.5447 69.0476 36.0698 70.5481 36.0698H83.1523C86.1534 36.0698 88.7042 37.1202 90.8049 39.2209C92.9057 41.3216 93.956 43.8725 93.956 46.8735Z"
+                      fill="#EFFBFF"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_151_457">
+                      <rect
+                        width="94.28"
+                        height="79.2269"
+                        fill="white"
+                        transform="translate(0 0.0576172)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                <p class="fw-400 f-18 clrGrey text-center m-0 f-sm-16">
+                  Want to really thank Dr Shivam Singla and his team for great
+                  support for my chemotherapy session.
+                </p>
+              </div>
+              <div>
+                <svg
+                  width="95"
+                  height="80"
+                  viewBox="0 0 95 80"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_151_457)">
+                    <path
+                      d="M43.5389 46.8735V68.4809C43.5389 71.4819 42.4885 74.0327 40.3878 76.1335C38.2871 78.2342 35.7362 79.2845 32.7352 79.2845H11.1279C8.12687 79.2845 5.576 78.2342 3.47529 76.1335C1.37458 74.0327 0.324219 71.4819 0.324219 68.4809V28.8674C0.324219 24.9661 1.08385 21.2429 2.60312 17.698C4.12238 14.153 6.17621 11.0864 8.76458 8.49798C11.353 5.9096 14.4196 3.85578 17.9646 2.33652C21.5095 0.81725 25.2327 0.0576172 29.134 0.0576172H32.7352C33.7106 0.0576172 34.5546 0.413988 35.2673 1.12673C35.9801 1.83947 36.3364 2.68351 36.3364 3.65884V10.8613C36.3364 11.8366 35.9801 12.6807 35.2673 13.3934C34.5546 14.1061 33.7106 14.4625 32.7352 14.4625H29.134C25.1576 14.4625 21.7627 15.8692 18.9493 18.6827C16.1358 21.4961 14.7291 24.8911 14.7291 28.8674V30.668C14.7291 32.1685 15.2543 33.444 16.3046 34.4943C17.355 35.5447 18.6304 36.0698 20.1309 36.0698H32.7352C35.7362 36.0698 38.2871 37.1202 40.3878 39.2209C42.4885 41.3216 43.5389 43.8725 43.5389 46.8735ZM93.956 46.8735V68.4809C93.956 71.4819 92.9057 74.0327 90.8049 76.1335C88.7042 78.2342 86.1534 79.2845 83.1523 79.2845H61.545C58.544 79.2845 55.9931 78.2342 53.8924 76.1335C51.7917 74.0327 50.7413 71.4819 50.7413 68.4809V28.8674C50.7413 24.9661 51.501 21.2429 53.0202 17.698C54.5395 14.153 56.5933 11.0864 59.1817 8.49798C61.7701 5.9096 64.8367 3.85578 68.3817 2.33652C71.9267 0.81725 75.6498 0.0576172 79.5511 0.0576172H83.1523C84.1277 0.0576172 84.9717 0.413988 85.6844 1.12673C86.3972 1.83947 86.7536 2.68351 86.7536 3.65884V10.8613C86.7536 11.8366 86.3972 12.6807 85.6844 13.3934C84.9717 14.1061 84.1277 14.4625 83.1523 14.4625H79.5511C75.5748 14.4625 72.1799 15.8692 69.3664 18.6827C66.553 21.4961 65.1462 24.8911 65.1462 28.8674V30.668C65.1462 32.1685 65.6714 33.444 66.7218 34.4943C67.7721 35.5447 69.0476 36.0698 70.5481 36.0698H83.1523C86.1534 36.0698 88.7042 37.1202 90.8049 39.2209C92.9057 41.3216 93.956 43.8725 93.956 46.8735Z"
+                      fill="#EFFBFF"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_151_457">
+                      <rect
+                        width="94.28"
+                        height="79.2269"
+                        fill="white"
+                        transform="translate(0 0.0576172)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                <p class="fw-400 f-18 clrGrey text-center m-0 f-sm-16">
+                  Cancer was disturbing news. I didn't like going to the
+                  hospital. The ambience at DACC is really comforting. I still
+                  have 4 rounds left for stage 2 breast cancer.
+                </p>
+              </div>
+              <div>
+                <svg
+                  width="95"
+                  height="80"
+                  viewBox="0 0 95 80"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_151_457)">
+                    <path
+                      d="M43.5389 46.8735V68.4809C43.5389 71.4819 42.4885 74.0327 40.3878 76.1335C38.2871 78.2342 35.7362 79.2845 32.7352 79.2845H11.1279C8.12687 79.2845 5.576 78.2342 3.47529 76.1335C1.37458 74.0327 0.324219 71.4819 0.324219 68.4809V28.8674C0.324219 24.9661 1.08385 21.2429 2.60312 17.698C4.12238 14.153 6.17621 11.0864 8.76458 8.49798C11.353 5.9096 14.4196 3.85578 17.9646 2.33652C21.5095 0.81725 25.2327 0.0576172 29.134 0.0576172H32.7352C33.7106 0.0576172 34.5546 0.413988 35.2673 1.12673C35.9801 1.83947 36.3364 2.68351 36.3364 3.65884V10.8613C36.3364 11.8366 35.9801 12.6807 35.2673 13.3934C34.5546 14.1061 33.7106 14.4625 32.7352 14.4625H29.134C25.1576 14.4625 21.7627 15.8692 18.9493 18.6827C16.1358 21.4961 14.7291 24.8911 14.7291 28.8674V30.668C14.7291 32.1685 15.2543 33.444 16.3046 34.4943C17.355 35.5447 18.6304 36.0698 20.1309 36.0698H32.7352C35.7362 36.0698 38.2871 37.1202 40.3878 39.2209C42.4885 41.3216 43.5389 43.8725 43.5389 46.8735ZM93.956 46.8735V68.4809C93.956 71.4819 92.9057 74.0327 90.8049 76.1335C88.7042 78.2342 86.1534 79.2845 83.1523 79.2845H61.545C58.544 79.2845 55.9931 78.2342 53.8924 76.1335C51.7917 74.0327 50.7413 71.4819 50.7413 68.4809V28.8674C50.7413 24.9661 51.501 21.2429 53.0202 17.698C54.5395 14.153 56.5933 11.0864 59.1817 8.49798C61.7701 5.9096 64.8367 3.85578 68.3817 2.33652C71.9267 0.81725 75.6498 0.0576172 79.5511 0.0576172H83.1523C84.1277 0.0576172 84.9717 0.413988 85.6844 1.12673C86.3972 1.83947 86.7536 2.68351 86.7536 3.65884V10.8613C86.7536 11.8366 86.3972 12.6807 85.6844 13.3934C84.9717 14.1061 84.1277 14.4625 83.1523 14.4625H79.5511C75.5748 14.4625 72.1799 15.8692 69.3664 18.6827C66.553 21.4961 65.1462 24.8911 65.1462 28.8674V30.668C65.1462 32.1685 65.6714 33.444 66.7218 34.4943C67.7721 35.5447 69.0476 36.0698 70.5481 36.0698H83.1523C86.1534 36.0698 88.7042 37.1202 90.8049 39.2209C92.9057 41.3216 93.956 43.8725 93.956 46.8735Z"
+                      fill="#EFFBFF"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_151_457">
+                      <rect
+                        width="94.28"
+                        height="79.2269"
+                        fill="white"
+                        transform="translate(0 0.0576172)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                <p class="fw-400 f-18 clrGrey text-center m-0 f-sm-16">
+                  Dr is near my house and walking distance from Surya Hospital.
+                  I have been a patient to them for long now. Brought my mother
+                  for her chemo sessions. She is satisfied with her treatment.
+                </p>
+              </div>
+              <div>
+                <svg
+                  width="95"
+                  height="80"
+                  viewBox="0 0 95 80"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_151_457)">
+                    <path
+                      d="M43.5389 46.8735V68.4809C43.5389 71.4819 42.4885 74.0327 40.3878 76.1335C38.2871 78.2342 35.7362 79.2845 32.7352 79.2845H11.1279C8.12687 79.2845 5.576 78.2342 3.47529 76.1335C1.37458 74.0327 0.324219 71.4819 0.324219 68.4809V28.8674C0.324219 24.9661 1.08385 21.2429 2.60312 17.698C4.12238 14.153 6.17621 11.0864 8.76458 8.49798C11.353 5.9096 14.4196 3.85578 17.9646 2.33652C21.5095 0.81725 25.2327 0.0576172 29.134 0.0576172H32.7352C33.7106 0.0576172 34.5546 0.413988 35.2673 1.12673C35.9801 1.83947 36.3364 2.68351 36.3364 3.65884V10.8613C36.3364 11.8366 35.9801 12.6807 35.2673 13.3934C34.5546 14.1061 33.7106 14.4625 32.7352 14.4625H29.134C25.1576 14.4625 21.7627 15.8692 18.9493 18.6827C16.1358 21.4961 14.7291 24.8911 14.7291 28.8674V30.668C14.7291 32.1685 15.2543 33.444 16.3046 34.4943C17.355 35.5447 18.6304 36.0698 20.1309 36.0698H32.7352C35.7362 36.0698 38.2871 37.1202 40.3878 39.2209C42.4885 41.3216 43.5389 43.8725 43.5389 46.8735ZM93.956 46.8735V68.4809C93.956 71.4819 92.9057 74.0327 90.8049 76.1335C88.7042 78.2342 86.1534 79.2845 83.1523 79.2845H61.545C58.544 79.2845 55.9931 78.2342 53.8924 76.1335C51.7917 74.0327 50.7413 71.4819 50.7413 68.4809V28.8674C50.7413 24.9661 51.501 21.2429 53.0202 17.698C54.5395 14.153 56.5933 11.0864 59.1817 8.49798C61.7701 5.9096 64.8367 3.85578 68.3817 2.33652C71.9267 0.81725 75.6498 0.0576172 79.5511 0.0576172H83.1523C84.1277 0.0576172 84.9717 0.413988 85.6844 1.12673C86.3972 1.83947 86.7536 2.68351 86.7536 3.65884V10.8613C86.7536 11.8366 86.3972 12.6807 85.6844 13.3934C84.9717 14.1061 84.1277 14.4625 83.1523 14.4625H79.5511C75.5748 14.4625 72.1799 15.8692 69.3664 18.6827C66.553 21.4961 65.1462 24.8911 65.1462 28.8674V30.668C65.1462 32.1685 65.6714 33.444 66.7218 34.4943C67.7721 35.5447 69.0476 36.0698 70.5481 36.0698H83.1523C86.1534 36.0698 88.7042 37.1202 90.8049 39.2209C92.9057 41.3216 93.956 43.8725 93.956 46.8735Z"
+                      fill="#EFFBFF"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_151_457">
+                      <rect
+                        width="94.28"
+                        height="79.2269"
+                        fill="white"
+                        transform="translate(0 0.0576172)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                <p class="fw-400 f-18 clrGrey text-center m-0 f-sm-16">
+                  I feared that I would be nauseous and vomit continuously. That
+                  did not happen. I had mild nausea only. It was better than any
+                  other place I went. I am satisfied with my treatment from Dr
+                  Ganatra.
+                </p>
+              </div>
+              <div>
+                <svg
+                  width="95"
+                  height="80"
+                  viewBox="0 0 95 80"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_151_457)">
+                    <path
+                      d="M43.5389 46.8735V68.4809C43.5389 71.4819 42.4885 74.0327 40.3878 76.1335C38.2871 78.2342 35.7362 79.2845 32.7352 79.2845H11.1279C8.12687 79.2845 5.576 78.2342 3.47529 76.1335C1.37458 74.0327 0.324219 71.4819 0.324219 68.4809V28.8674C0.324219 24.9661 1.08385 21.2429 2.60312 17.698C4.12238 14.153 6.17621 11.0864 8.76458 8.49798C11.353 5.9096 14.4196 3.85578 17.9646 2.33652C21.5095 0.81725 25.2327 0.0576172 29.134 0.0576172H32.7352C33.7106 0.0576172 34.5546 0.413988 35.2673 1.12673C35.9801 1.83947 36.3364 2.68351 36.3364 3.65884V10.8613C36.3364 11.8366 35.9801 12.6807 35.2673 13.3934C34.5546 14.1061 33.7106 14.4625 32.7352 14.4625H29.134C25.1576 14.4625 21.7627 15.8692 18.9493 18.6827C16.1358 21.4961 14.7291 24.8911 14.7291 28.8674V30.668C14.7291 32.1685 15.2543 33.444 16.3046 34.4943C17.355 35.5447 18.6304 36.0698 20.1309 36.0698H32.7352C35.7362 36.0698 38.2871 37.1202 40.3878 39.2209C42.4885 41.3216 43.5389 43.8725 43.5389 46.8735ZM93.956 46.8735V68.4809C93.956 71.4819 92.9057 74.0327 90.8049 76.1335C88.7042 78.2342 86.1534 79.2845 83.1523 79.2845H61.545C58.544 79.2845 55.9931 78.2342 53.8924 76.1335C51.7917 74.0327 50.7413 71.4819 50.7413 68.4809V28.8674C50.7413 24.9661 51.501 21.2429 53.0202 17.698C54.5395 14.153 56.5933 11.0864 59.1817 8.49798C61.7701 5.9096 64.8367 3.85578 68.3817 2.33652C71.9267 0.81725 75.6498 0.0576172 79.5511 0.0576172H83.1523C84.1277 0.0576172 84.9717 0.413988 85.6844 1.12673C86.3972 1.83947 86.7536 2.68351 86.7536 3.65884V10.8613C86.7536 11.8366 86.3972 12.6807 85.6844 13.3934C84.9717 14.1061 84.1277 14.4625 83.1523 14.4625H79.5511C75.5748 14.4625 72.1799 15.8692 69.3664 18.6827C66.553 21.4961 65.1462 24.8911 65.1462 28.8674V30.668C65.1462 32.1685 65.6714 33.444 66.7218 34.4943C67.7721 35.5447 69.0476 36.0698 70.5481 36.0698H83.1523C86.1534 36.0698 88.7042 37.1202 90.8049 39.2209C92.9057 41.3216 93.956 43.8725 93.956 46.8735Z"
+                      fill="#EFFBFF"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_151_457">
+                      <rect
+                        width="94.28"
+                        height="79.2269"
+                        fill="white"
+                        transform="translate(0 0.0576172)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                <p class="fw-400 f-18 clrGrey text-center m-0 f-sm-16">
+                  Thank you Dr Advani Chemo therapy centre, my baby boy is not
+                  afraid of chemo because of your nurses and their constant
+                  effort to make chemo problem-free for him. Can't thank you
+                  enough.
+                </p>
+              </div>
+              <div>
+                <svg
+                  width="95"
+                  height="80"
+                  viewBox="0 0 95 80"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_151_457)">
+                    <path
+                      d="M43.5389 46.8735V68.4809C43.5389 71.4819 42.4885 74.0327 40.3878 76.1335C38.2871 78.2342 35.7362 79.2845 32.7352 79.2845H11.1279C8.12687 79.2845 5.576 78.2342 3.47529 76.1335C1.37458 74.0327 0.324219 71.4819 0.324219 68.4809V28.8674C0.324219 24.9661 1.08385 21.2429 2.60312 17.698C4.12238 14.153 6.17621 11.0864 8.76458 8.49798C11.353 5.9096 14.4196 3.85578 17.9646 2.33652C21.5095 0.81725 25.2327 0.0576172 29.134 0.0576172H32.7352C33.7106 0.0576172 34.5546 0.413988 35.2673 1.12673C35.9801 1.83947 36.3364 2.68351 36.3364 3.65884V10.8613C36.3364 11.8366 35.9801 12.6807 35.2673 13.3934C34.5546 14.1061 33.7106 14.4625 32.7352 14.4625H29.134C25.1576 14.4625 21.7627 15.8692 18.9493 18.6827C16.1358 21.4961 14.7291 24.8911 14.7291 28.8674V30.668C14.7291 32.1685 15.2543 33.444 16.3046 34.4943C17.355 35.5447 18.6304 36.0698 20.1309 36.0698H32.7352C35.7362 36.0698 38.2871 37.1202 40.3878 39.2209C42.4885 41.3216 43.5389 43.8725 43.5389 46.8735ZM93.956 46.8735V68.4809C93.956 71.4819 92.9057 74.0327 90.8049 76.1335C88.7042 78.2342 86.1534 79.2845 83.1523 79.2845H61.545C58.544 79.2845 55.9931 78.2342 53.8924 76.1335C51.7917 74.0327 50.7413 71.4819 50.7413 68.4809V28.8674C50.7413 24.9661 51.501 21.2429 53.0202 17.698C54.5395 14.153 56.5933 11.0864 59.1817 8.49798C61.7701 5.9096 64.8367 3.85578 68.3817 2.33652C71.9267 0.81725 75.6498 0.0576172 79.5511 0.0576172H83.1523C84.1277 0.0576172 84.9717 0.413988 85.6844 1.12673C86.3972 1.83947 86.7536 2.68351 86.7536 3.65884V10.8613C86.7536 11.8366 86.3972 12.6807 85.6844 13.3934C84.9717 14.1061 84.1277 14.4625 83.1523 14.4625H79.5511C75.5748 14.4625 72.1799 15.8692 69.3664 18.6827C66.553 21.4961 65.1462 24.8911 65.1462 28.8674V30.668C65.1462 32.1685 65.6714 33.444 66.7218 34.4943C67.7721 35.5447 69.0476 36.0698 70.5481 36.0698H83.1523C86.1534 36.0698 88.7042 37.1202 90.8049 39.2209C92.9057 41.3216 93.956 43.8725 93.956 46.8735Z"
+                      fill="#EFFBFF"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_151_457">
+                      <rect
+                        width="94.28"
+                        height="79.2269"
+                        fill="white"
+                        transform="translate(0 0.0576172)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                <p class="fw-400 f-18 clrGrey text-center m-0 f-sm-16">
+                  I was terrified of chemotherapy but doctor here made it easy.
+                  Thank you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-md-4 py-3 faq bgGreenLight">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <h3
+              class="f-sm-16 f-35 clrBlueDark2 text-center fw-700 mb-md-3 mt-3 mt-md-2"
+            >
+              Frequently asked questions
+            </h3>
+
+            <p class="text-md-center f-15 text-center mb-md-5 mb-4 sub-head">
+              Have questions? We're here to help.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <div id="accordion">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card border-bottom-1">
+                    <div class="card-header border-0">
+                      <a
+                        class="collapsed fw-700 f-18 f-sm-16 clrGrey d-flex text-start btn"
+                        data-bs-toggle="collapse"
+                        href="#rjr"
+                      >
+                        What is chemotherapy?
+                      </a>
+                    </div>
+                    <div id="rjr" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        <ul class="fw-400 f-18 f-sm-14 clrGrey">
+                          <li>
+                            Chemotherapy is any medicine or drug combination
+                            that kills, inhibits the growth of, or harms cancer
+                            cells.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border-bottom-1">
+                    <div class="card-header border-0">
+                      <a
+                        class="collapsed fw-700 f-18 f-sm-16 clrGrey d-flex text-start btn"
+                        data-bs-toggle="collapse"
+                        href="#CUVIS"
+                      >
+                        How exactly is chemotherapy given?
+                      </a>
+                    </div>
+                    <div
+                      id="CUVIS"
+                      class="collapse"
+                      data-bs-parent="#accordion"
+                    >
+                      <div class="card-body">
+                        <ul class="fw-400 f-18 f-sm-14 clrGrey">
+                          <li>
+                            There are various techniques to administer
+                            chemotherapy. Since many chemotherapy drugs are too
+                            potent to pass via the digestive system, they are
+                            administered intravenously. Chemotherapy
+                            administered intravenously (IV) is administered
+                            through a tube. The tube's other end is inserted
+                            into a vein, and one end is attached to a bag
+                            containing your medication.<br />
+                            Some chemotherapy medications can be taken orally as
+                            pills or liquids, while others must be applied
+                            topically in the form of a cream or lotion.
+                            Chemotherapy can be administered intravenously.<br /><br />
+                            You can determine where the chemotherapy will be
+                            given by looking at the name of the injection.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border-bottom-1">
+                    <div class="card-header border-0">
+                      <a
+                        class="collapsed fw-700 f-18 f-sm-16 clrGrey d-flex text-start btn"
+                        data-bs-toggle="collapse"
+                        href="#experienced"
+                      >
+                        Is chemotherapy painful?
+                      </a>
+                    </div>
+                    <div
+                      id="experienced"
+                      class="collapse"
+                      data-bs-parent="#accordion"
+                    >
+                      <div class="card-body">
+                        <ul class="fw-400 f-18 f-sm-14 clrGrey">
+                          <li>
+                            Chemotherapy isn't painful for most patients.
+                            However, the side effects of chemotherapy drugs can
+                            be physically and emotionally challenging for some
+                            people that can be managed with guidance and
+                            therapies.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border-bottom-1">
+                    <div class="card-header border-0">
+                      <a
+                        class="collapsed fw-700 f-18 f-sm-16 clrGrey d-flex text-start btn"
+                        data-bs-toggle="collapse"
+                        href="#collapseOne"
+                      >
+                        What is the duration of chemotherapy?
+                      </a>
+                    </div>
+                    <div
+                      id="collapseOne"
+                      class="collapse"
+                      data-bs-parent="#accordion"
+                    >
+                      <div class="card-body">
+                        <ul class="fw-400 f-18 f-sm-14 clrGrey">
+                          <li>
+                            Chemotherapy is given throughout the course of
+                            several therapy sessions. The number of sessions you
+                            require will be determined by your cancer treatment
+                            team at the Dr. Advani Chemotherapy Therapy Center.
+                            A chemotherapy course is a comprehensive set of
+                            sessions. <br />
+                            <br />
+                            Your doctor normally lets you know when your
+                            chemotherapy will be finished when your treatments
+                            first start.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pb-2 pt-2 footer-keys pt-md-3 pb-md-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p
+              class="text-center m-0 f-15 f-sm-13 f-md-13 close-footer clr-footer clrGrey"
+            >
+              <span class="pointer"
+                ><span>Open footer</span>
+                <i class="fa f-14 fa-angle-down" aria-hidden="true"></i
+              ></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-2 pb-md-4 pt-md-0 keywords-sec">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-12">
+            <div class="row mt-0 mb-3 justify-content-center">
+              <div class="col-md-12">
+                <div class="pos-relative">
+                  <h2 class="text-center mb-0 clrGrey f-14">
+                    <span class="side-rules-txt fw-400 pos-relative"
+                      >Looking for something specific</span
+                    >
+                  </h2>
+                  <hr class="pos-absolute side-rules" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-md-0 mb-1 pb-md-0 pb-0">
+              <div
+                class="col-md-12 d-none flex-wrap justify-content-center topic-pills"
+              >
+                <div>mri costs near me</div>
+                <div>cheapest mri prices near me</div>
+                <div>mri scan near me cost</div>
+                <div>mri scans near me</div>
+                <div>cheap mri scans near me</div>
+                <div>mri near me</div>
+                <div>low cost mri near me</div>
+                <div>low cost mri scan near me</div>
+                <div>cheapest mri near me</div>
+                <div>mri near me cheap</div>
+                <div>mri places near me</div>
+                <div>affordable mri near me</div>
+                <div>mri test near me</div>
+                <div>mri scan centre near me</div>
+                <div>mri providers near me</div>
+                <div>inexpensive mri near me</div>
+                <div>private mri scan near me</div>
+                <div>full body mri scan near me</div>
+                <div>open mri scanner near me</div>
+                <div>mri centres near me</div>
+                <div>mri facilities near me</div>
+                <div>mri imaging near me</div>
+                <div>self pay mri near me</div>
+                <div>open mri near me</div>
+                <div>mri clinics near me</div>
+                <div>mri services near me</div>
+                <div>open mri imaging near me</div>
+                <div>open mri facilities near me</div>
+                <div>mri locations near me</div>
+                <div>open mri centres near me</div>
+                <div>open mri locations near me</div>
+                <div>mri cost near me</div>
+                <div>mri near me cost</div>
+                <div>mri centers open right now</div>
+                <div>mri scan near aiims delhi</div>
+                <div>mri brain centre near me</div>
+                <div>best mri scan centre in south delhi</div>
+                <div>mri lab near me</div>
+                <div>mri diagnostic centre in delhi ncr</div>
+                <div>mri 1.5 tesla price</div>
+                <div>average price of mri</div>
+                <div>prices for mri</div>
+                <div>cheapest mri prices</div>
+                <div>price to have an mri</div>
+                <div>best price mri</div>
+                <div>mri price range</div>
+                <div>prices for mri scans</div>
+                <div>mri price list</div>
+                <div>price of mri test</div>
+                <div>mri scan prices cost</div>
+                <div>price of brain mri</div>
+                <div>average price mri scan</div>
+                <div>compare mri prices</div>
+                <div>low price mri</div>
+                <div>best price mri scan</div>
+                <div>cost of mri scan</div>
+                <div>mri price</div>
+                <div>mri scan price list</div>
+                <div>mri cost</div>
+                <div>private mri scan prices</div>
+                <div>price head mri</div>
+                <div>mri scanner price</div>
+                <div>cash price mri</div>
+                <div>prices mri</div>
+                <div>prices of mri</div>
+                <div>what is the price of an mri</div>
+                <div>mri prices</div>
+                <div>price for a mri</div>
+                <div>price full body mri</div>
+                <div>full body mri scan price</div>
+                <div>mri test cost</div>
+                <div>mri test scan cost</div>
+                <div>mri hospital</div>
+                <div>cheap mri hospital</div>
+                <div>best mri hospital</div>
+                <div>mri hospital in delhi</div>
+                <div>mri scan hospital</div>
+                <div>mri scan clinics</div>
+                <div>affordable mri hospitals</div>
+                <div>mri treatment hospital</div>
+                <div>mri in charak palika</div>
+                <div>mri near charak palika hospital</div>
+                <div>charak palika hospital mri</div>
+                <div>mri scan in charak palika</div>
+                <div>mri facility in charak palika</div>
+                <div>head mri in charak palika</div>
+                <div>chest mri in charak palika</div>
+                <div>charak palika mri charges</div>
+                <div>charak palika hospital mri price</div>
+                <div>charak palika hospital mri services</div>
+                <div>mri scan centre in delhi</div>
+                <div>mri labs in delhi</div>
+                <div>whole abdomen mri cost in delhi</div>
+                <div>mri head – without contrast</div>
+                <div>mri head – with contrast</div>
+                <div>mri orbits – without contrast</div>
+                <div>mri orbits – with contrast</div>
+                <div>mri nasopharynx and pns – without contrast</div>
+                <div>mri nasopharynx and pns – with contrast</div>
+                <div>mr for salivary glands with sialography</div>
+                <div>mri neck - without contrast</div>
+                <div>mri neck- with contrast</div>
+                <div>mri shoulder – without contrast</div>
+                <div>mri shoulder – with conntrast</div>
+                <div>mri wrist single joint - without contrast</div>
+                <div>mri wrist single joint - with contrast</div>
+                <div>mri knee single joint - without contrast</div>
+                <div>mri knee single joint - with contrast</div>
+                <div>mri ankle single joint - without contrast</div>
+                <div>mri ankle single joint - with contrast</div>
+                <div>mri hip - with contrast</div>
+                <div>mri hip – without contrast</div>
+                <div>mri pelvis – without contrast</div>
+                <div>mri pelvis – with contrast</div>
+                <div>mri extremities - with contrast</div>
+                <div>mri extremities - without contrast</div>
+                <div>mri temporomandibular – b/l - with contrast</div>
+                <div>mri temporomandibular – b/l - without contrast</div>
+                <div>mr temporal bone/ inner ear with contrast</div>
+                <div>mr temporal bone/ inner ear without contrast</div>
+                <div>mri abdomen – without contrast</div>
+                <div>mri abdomen – with contrast</div>
+                <div>mri breast - with contrast</div>
+                <div>mri breast - without contrast</div>
+                <div>mri spine screening - without contrast</div>
+                <div>mri chest – without contrast</div>
+                <div>mri chest – with contrast</div>
+                <div>mri cervical/cervico dorsal spine – without contrast</div>
+                <div>mri cervical/ cervico dorsal spine – with contrast</div>
+                <div>mri dorsal/ dorso lumbar spine - without contrast</div>
+                <div>mri dorsal/ dorso lumbar spine – with contrast</div>
+                <div>mri lumbar/ lumbo-sacral spine – without contrast</div>
+                <div>mri lumbar/ lumbo-sacral spine – with contrast</div>
+                <div>mr cholecysto-pancreatography.</div>
+                <div>mri angiography - with contrast</div>
+                <div>mr enteroclysis</div>
+                <div>mri prostate multi parametric contrast</div>
+                <div>mri angiography brain and neck vessels (contrast)</div>
+                <div>mri angiography neck vessels (contrast)</div>
+                <div>mri angiography extremities with contrast</div>
+                <div>mri cervico-dorso spine with contrast</div>
+                <div>mri angiography brain (intracranial)</div>
+                <div>mri angiography brain and neck vessels (plain)</div>
+                <div>mri angiography neck vessels</div>
+                <div>mri angiography orbit</div>
+                <div>mri angiography renal</div>
+                <div>mri brachial plexus</div>
+                <div>mri brachial plexus with contrast</div>
+                <div>mri cisternography</div>
+                <div>mri sella plain and dynamic contrast</div>
+                <div>mri cp angle</div>
+                <div>mri csf flwo study</div>
+                <div>mri epilepsy protocol</div>
+                <div>mri fiesta protocol</div>
+                <div>mri stroke protocol</div>
+                <div>mri vertigo protocol</div>
+                <div>mri diffusion study</div>
+                <div>mri coccyx</div>
+                <div>mri contrast</div>
+                <div>mri cv junction</div>
+                <div>mri defecogram</div>
+                <div>mri epilepsy protocol/dwi</div>
+                <div>mri phase with contrast</div>
+                <div>mri phase with contrast</div>
+                <div>mri fistulogram</div>
+                <div>mri fistulogram with contrast</div>
+                <div>mri kub</div>
+                <div>mri lower abdomen plain</div>
+                <div>mri parotid region contrast</div>
+                <div>mri parotid region plain</div>
+                <div>mri perfusion</div>
+                <div>mri perianal</div>
+                <div>mri pilonidal sinus</div>
+                <div>mri prostate (plain)</div>
+                <div>mri scrotum</div>
+                <div>mri scrotum with contrast</div>
+                <div>mri sialogram</div>
+                <div>mri sinogram</div>
+                <div>mri sinogram with contrast</div>
+                <div>mri spectroscopy</div>
+                <div>mri sterno-clavicular</div>
+                <div>mri sternum</div>
+                <div>mri tm joint (close mouth)</div>
+                <div>mri tm joint (open mouth)</div>
+                <div>mri venogram brain contrast</div>
+                <div>mri venography brain plain</div>
+                <div>mri venography orbit</div>
+                <div>mri scrotum</div>
+                <div>mri scrotum with contrast</div>
+                <div>mri sialogram</div>
+                <div>mri sinogram</div>
+                <div>mri sinogram with contrast</div>
+                <div>mri spectroscopy</div>
+                <div>mri sterno-clavicular</div>
+                <div>mri sternum</div>
+                <div>mri tm joint (close mouth)</div>
+                <div>mri tm joint (open mouth)</div>
+                <div>mri venogram brain contrast</div>
+                <div>mri venography brain plain</div>
+                <div>mri venography orbit</div>
+                <div>government rate mri</div>
+                <div>mri at govt price</div>
+                <div>govt rate mri</div>
+                <div>mri centre in south delhi</div>
+                <div>mri centre in central delhi</div>
+                <div>mri centre in moti bagh</div>
+                <div>mri centre in connaught place</div>
+                <div>mri in cp</div>
+                <div>mri in moti bagh</div>
+                <div>mri scan in south delhi</div>
+                <div>mri scan in central delhi</div>
+                <div>mri scan in connaught place</div>
+                <div>mri scan in moti bagh</div>
+                <div>mri centre delhi</div>
+                <div>mri in south delhi</div>
+                <div>mri centre in south delhi</div>
+                <div>mri scan in south delhi</div>
+                <div>mri test in south delhi</div>
+                <div>mri scan centre in south delhi</div>
+                <div>anandpur trust delhi mri price</div>
+                <div>mri scan price in delhi</div>
+                <div>delhi mri centre</div>
+                <div>delhi mri scan centre</div>
+                <div>delhi mri centre</div>
+                <div>whole body mri cost in delhi</div>
+                <div>best mri in delhi</div>
+                <div>open mri cost in delhi</div>
+                <div>mri in south delhi</div>
+                <div>mri centre in south delhi</div>
+                <div>mri hospital in delhi</div>
+                <div>charitable mri in delhi</div>
+                <div>charitable mri center in delhi</div>
+                <div>ct scan costs near me</div>
+                <div>cheapest ct scan prices near me</div>
+                <div>ct scan near me cost</div>
+                <div>ct scans near me</div>
+                <div>cheap ct scans near me</div>
+                <div>ct scan near me</div>
+                <div>low cost ct scan near me</div>
+                <div>low cost ct scan near me</div>
+                <div>cheapest ct scan near me</div>
+                <div>ct scan near me cheap</div>
+                <div>ct scan places near me</div>
+                <div>affordable ct scan near me</div>
+                <div>ct scan test near me</div>
+                <div>ct scan centre near me</div>
+                <div>ct scan providers near me</div>
+                <div>inexpensive ct scan near me</div>
+                <div>private ct scan near me</div>
+                <div>full body ct scan near me</div>
+                <div>open ct scanner near me</div>
+                <div>ct scan centres near me</div>
+                <div>ct scan facilities near me</div>
+                <div>ct scan imaging near me</div>
+                <div>self pay ct scan near me</div>
+                <div>open ct scan near me</div>
+                <div>ct scan clinics near me</div>
+                <div>ct scan services near me</div>
+                <div>open ct scan imaging near me</div>
+                <div>open ct scan facilities near me</div>
+                <div>ct scan locations near me</div>
+                <div>open ct scan centres near me</div>
+                <div>open ct scan locations near me</div>
+                <div>ct scan cost near me</div>
+                <div>ct scan near me cost</div>
+                <div>average price of ct scan</div>
+                <div>prices for ct scan</div>
+                <div>cheapest ct scan prices</div>
+                <div>price to have an ct scan</div>
+                <div>best price ct scan</div>
+                <div>ct scan price range</div>
+                <div>prices for ct scans</div>
+                <div>ct scan price list</div>
+                <div>price of ct scan test</div>
+                <div>ct scan prices cost</div>
+                <div>price of brain ct scan</div>
+                <div>average price ct scan</div>
+                <div>compare ct scan prices</div>
+                <div>low price ct scan</div>
+                <div>best price ct scan</div>
+                <div>cost of ct scan</div>
+                <div>ct scan price</div>
+                <div>ct scan price list</div>
+                <div>ct scan cost</div>
+                <div>private ct scan prices</div>
+                <div>price head ct scan</div>
+                <div>ct scanner price</div>
+                <div>cash price ct scan</div>
+                <div>price of an ct scan machine</div>
+                <div>prices ct scan</div>
+                <div>prices of ct scan</div>
+                <div>what is the price of an ct scan</div>
+                <div>ct scan prices</div>
+                <div>price for a ct scan</div>
+                <div>price full body ct scan</div>
+                <div>full body ct scan price</div>
+                <div>ct scan test cost</div>
+                <div>ct scan test scan cost</div>
+                <div>ct scan head</div>
+                <div>ct scan brain</div>
+                <div>ct scan head with contrast</div>
+                <div>ct scan without contrast</div>
+                <div>normal head ct scan</div>
+                <div>normal brain ct scan</div>
+                <div>ct brain with contrast</div>
+                <div>ct head plain</div>
+                <div>ct scan for concussion</div>
+                <div>ct head with contrast</div>
+                <div>ct brain wo contrast</div>
+                <div>ct brain without contrast</div>
+                <div>ct head wo contrast</div>
+                <div>ct head without contrast</div>
+                <div>ct head-without contrast</div>
+                <div>ct head- with contrast (+/- ct angiography)</div>
+                <div>c. t. chest - without contrast (for lungs)</div>
+                <div>c. t. chest - with contrast (for lungs)</div>
+                <div>c. t. scan lower abdomen(incl. pelvis) with contrast</div>
+                <div>
+                  c. t. scan lower abdomen( incl. pelvis) without contrast
+                </div>
+                <div>c. t. scan whole abdomen without contrast</div>
+                <div>c. t. scan whole abdomen with contrast</div>
+                <div>triple phase ct abdomen</div>
+                <div>ct angiography abdomen/ chest</div>
+                <div>ct enteroclysis</div>
+                <div>c. t. scan neck – without contrast</div>
+                <div>c. t. scan neck – with contrast</div>
+                <div>c. t. scan orbits - without contrast</div>
+                <div>c. t. scan orbits - with contrast</div>
+                <div>c. t. scan of para nasal sinuses- without contrast</div>
+                <div>c. t. scan of para nasal sinuses - with contrast</div>
+                <div>
+                  c. t. spine (cervical, dorsal, lumbar, sacral)–without
+                </div>
+                <div>contrast</div>
+                <div>ct temporal bone – without contrast</div>
+                <div>ct - dental</div>
+                <div>c. t. scan limbs -without contrast</div>
+                <div>ct urography</div>
+                <div>ct hip plain</div>
+                <div>ct 3d reconstruction</div>
+                <div>ct elbow/wrist/shoulder one limb plain</div>
+                <div>ct scan shoulder/hip/pelvis plain</div>
+                <div>ct dual phase abdomen</div>
+                <div>ct abdomen upper contrast</div>
+                <div>ct extra contrast charges</div>
+                <div>ct kub plain</div>
+                <div>cect kub</div>
+                <div>ct spine cervical/dorsal/lumbar/ (each part) contrast</div>
+                <div>ct angio brain</div>
+                <div>ct phase plain</div>
+                <div>ct phase contrast</div>
+                <div>ct scrotum plain</div>
+                <div>ct scrotum with contrast</div>
+                <div>ct temporal bone with contrast</div>
+                <div>ct angio neck vessels</div>
+                <div>ct venography brain</div>
+                <div>ct venography chest</div>
+                <div>ct venography abdomen</div>
+                <div>ct venography lower limb</div>
+                <div>extra film charges (one film)</div>
+                <div>charak palika ct scan</div>
+                <div>charak palika lab ct scan</div>
+                <div>ct scan near charak palika hospital</div>
+                <div>ct scan near charak</div>
+                <div>ct scan facility in charak palika</div>
+                <div>head ct scan in charak palika</div>
+                <div>chest ct scan in charak palika hospital</div>
+                <div>ct whole abdomen in charak palika</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="copyright-sec py-md-2 py-2">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <p
+              class="text-md-start text-center fw-400 f-15 f-sm-14 text-white mb-md-0 mb-1"
+            >
+              <img src="img/location.svg" />
+              Ground Floor, Omeez Apartments, Dattatray Rd, Santacruz,
+              Mumbai-400054
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p class="text-md-end text-center f-15 f-sm-14 text-white m-0">
+              Copyright © 2022 Surya Hospitals
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="call-mob d-md-none py-2">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <button
+              onclick="location.href='tel:+918691008860'"
+              class="btn text-white w-100 f-sm-18 py-1 f-25 px-2 bgRed"
+              type="button"
+            >
+              Call Now
+            </button>
+          </div>
+          <div class="col-6">
+            <button
+              class="btn appointment-btn text-white w-100 f-sm-18 py-1 f-25 px-2 bgRed"
+              type="button"
+            >
+              Enquire Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <span class="form-close">X</span>
+    <div class="overlay"></div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/custom.js?ver=1.4"></script>
+  </body>
+</html>

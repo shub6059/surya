@@ -1,0 +1,22 @@
+<?php
+$args = array(
+	'numberposts' => -1,
+	'post_type'   => 'video_slider'
+);
+
+$posts = get_posts( $args );
+
+
+
+?>
+
+<div class="videoslider">
+  <?php foreach( (array)$posts as $temp ){
+	$video = get_post_meta($temp->ID, "youtube_link", true);
+	if($video){
+		?>
+  <div>
+    <iframe width="560" height="315" src="<?php echo $video?>" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  </div>
+  <?php } } ?>
+</div>

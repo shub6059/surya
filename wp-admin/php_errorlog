@@ -1,0 +1,173 @@
+[06-May-2021 12:59:10 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[06-May-2021 13:04:19 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/suryahospitals.com/public_html/surya/wp-content/plugins/cf7-styler-for-divi/freemius/start.php on line 74
+[06-May-2021 13:04:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/surya/wp-content/plugins/cf7-styler-for-divi/freemius/start.php:74) in /home/customer/www/suryahospitals.com/public_html/surya/wp-includes/pluggable.php on line 1296
+[07-May-2021 14:41:17 UTC] PHP Warning:  Error while sending QUERY packet. PID=90676 in /home/customer/www/suryahospitals.com/public_html/wp-includes/wp-db.php on line 2056
+[07-May-2021 14:44:38 UTC] PHP Warning:  Error while sending QUERY packet. PID=93953 in /home/customer/www/suryahospitals.com/public_html/wp-includes/wp-db.php on line 2056
+[07-May-2021 21:38:21 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `wp_options` WHERE `option_name` = 'fa_icons' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Ctl_Fa_Icons->ctl_fa_init, delete_option
+[08-May-2021 08:31:30 UTC] PHP Warning:  Error while sending QUERY packet. PID=36672 in /home/customer/www/suryahospitals.com/public_html/wp-includes/wp-db.php on line 2056
+[12-Oct-2021 12:28:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_block_editor() on null in /home/customer/www/suryahospitals.com/public_html/wp-content/themes/Divi/includes/builder/feature/gutenberg/EditorTypography.php:167
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(303): ET_GB_Editor_Typography->enqueue_block_typography_styles('')
+#1 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/suryahospitals.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/schema/includes/admin/class-setup-wizard.php(258): do_action('admin_footer')
+#4 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/schema/includes/admin/class-setup-wizard.php(168): Schema_WP_Setup_Wizard->setup_wizard_footer()
+#5 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(303): Schema_WP_Setup_W in /home/customer/www/suryahospitals.com/public_html/wp-content/themes/Divi/includes/builder/feature/gutenberg/EditorTypography.php on line 167
+[12-Oct-2021 12:50:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_block_editor() on null in /home/customer/www/suryahospitals.com/public_html/wp-content/themes/Divi/includes/builder/feature/gutenberg/EditorTypography.php:167
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(303): ET_GB_Editor_Typography->enqueue_block_typography_styles('')
+#1 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/suryahospitals.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/schema/includes/admin/class-setup-wizard.php(258): do_action('admin_footer')
+#4 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/schema/includes/admin/class-setup-wizard.php(168): Schema_WP_Setup_Wizard->setup_wizard_footer()
+#5 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(303): Schema_WP_Setup_W in /home/customer/www/suryahospitals.com/public_html/wp-content/themes/Divi/includes/builder/feature/gutenberg/EditorTypography.php on line 167
+[20-Dec-2021 10:06:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/suryahospitals.com/public_html/wp-content/themes/Divi/custom-templates/doctor-shortcode.php on line 644
+[27-Jun-2022 17:45:14 UTC] WordPress database error Duplicate column name 'source' for query ALTER TABLE wp_smsalert_booking_reminder ADD source varchar(50) NOT NULL DEFAULT 'woocommerce-bookings',ADD msg_sent TINYINT NOT NULL DEFAULT 0 made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, SAUpgrade::smsalert_upgrade
+[27-Jun-2022 17:56:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/msg91-by-vasim-shaikh/admin/partials/msg91-by-vasim-shaikh-admin-display.php:15) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1380
+[27-Jun-2022 17:57:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/msg91-by-vasim-shaikh/admin/partials/msg91-by-vasim-shaikh-admin-display.php:15) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1380
+[27-Jun-2022 17:58:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/msg91-by-vasim-shaikh/admin/partials/msg91-by-vasim-shaikh-admin-display.php:15) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1380
+[27-Jun-2022 17:58:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/msg91-by-vasim-shaikh/admin/partials/msg91-by-vasim-shaikh-admin-display.php:15) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1380
+[27-Jun-2022 17:59:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/msg91-by-vasim-shaikh/admin/partials/msg91-by-vasim-shaikh-admin-display.php:15) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1380
+[27-Jun-2022 18:04:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/msg91-by-vasim-shaikh/admin/partials/msg91-by-vasim-shaikh-admin-display.php:15) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1380
+[27-Jun-2022 18:21:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/msg91-by-vasim-shaikh/admin/partials/msg91-by-vasim-shaikh-admin-display.php:15) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1380
+[27-Jun-2022 18:21:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/msg91-by-vasim-shaikh/admin/partials/msg91-by-vasim-shaikh-admin-display.php:15) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1380
+[04-Aug-2022 07:55:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function nocache_headers() in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php:36
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-admin/index.php(10): require_once()
+#1 {main}
+  thrown in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php on line 36
+[04-Aug-2022 07:58:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function nocache_headers() in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php:36
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-admin/index.php(10): require_once()
+#1 {main}
+  thrown in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php on line 36
+[04-Aug-2022 07:58:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function nocache_headers() in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php:36
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-admin/index.php(10): require_once()
+#1 {main}
+  thrown in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php on line 36
+[04-Aug-2022 08:05:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function nocache_headers() in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php:36
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-admin/index.php(10): require_once()
+#1 {main}
+  thrown in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php on line 36
+[04-Aug-2022 08:29:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function nocache_headers() in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php:36
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-admin/index.php(10): require_once()
+#1 {main}
+  thrown in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php on line 36
+[04-Aug-2022 09:19:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function nocache_headers() in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php:36
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-admin/index.php(10): require_once()
+#1 {main}
+  thrown in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php on line 36
+[04-Aug-2022 09:23:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function nocache_headers() in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php:36
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-admin/index.php(10): require_once()
+#1 {main}
+  thrown in /home/customer/www/suryahospitals.com/public_html/wp-admin/admin.php on line 36
+[05-Aug-2022 06:55:32 UTC] PHP Fatal error:  Uncaught Error: Class 'WPCF7_ContactForm' not found in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/wpcf7-redirect/classes/class-wpcf7r-form.php:41
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/wpcf7-redirect/wpcf7r-functions.php(359): WPCF7R_Form->__construct(619018, '', '')
+#1 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/wpcf7-redirect/classes/class-wpcf7r-user.php(25): get_cf7r_form(619018)
+#2 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/wpcf7-redirect/classes/class-wpcf7r-user.php(87): WPCF7R_User->get_all_forms_fields()
+#3 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(307): WPCF7R_User->additional_profile_fields(Object(WP_User))
+#4 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/customer/www/suryahospitals.com/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 / in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/wpcf7-redirect/classes/class-wpcf7r-form.php on line 41
+[17-Aug-2022 05:38:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wpcf7_include_module_file() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/modules/constant-contact/constant-contact.php:8
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/load.php(72): include_once()
+#1 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/load.php(38): WPCF7::load_module('constant-contac...')
+#2 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/load.php(105): WPCF7::load_modules()
+#3 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(305): wpcf7()
+#4 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/customer/www/suryahospitals.com/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /home/customer/www/suryahospitals.com/public_html/wp-settings.php(461): do_action('plugins in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/modules/constant-contact/constant-contact.php on line 8
+[17-Aug-2022 05:40:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wpcf7_include_module_file() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/modules/constant-contact/constant-contact.php:8
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/load.php(72): include_once()
+#1 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/load.php(38): WPCF7::load_module('constant-contac...')
+#2 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/load.php(105): WPCF7::load_modules()
+#3 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(305): wpcf7()
+#4 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/customer/www/suryahospitals.com/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /home/customer/www/suryahospitals.com/public_html/wp-settings.php(461): do_action('plugins in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/modules/constant-contact/constant-contact.php on line 8
+[17-Aug-2022 05:40:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wpcf7_include_module_file() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/modules/constant-contact/constant-contact.php:8
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/load.php(72): include_once()
+#1 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/load.php(38): WPCF7::load_module('constant-contac...')
+#2 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/load.php(105): WPCF7::load_modules()
+#3 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(305): wpcf7()
+#4 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/customer/www/suryahospitals.com/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /home/customer/www/suryahospitals.com/public_html/wp-settings.php(461): do_action('plugins in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/contact-form-7/modules/constant-contact/constant-contact.php on line 8
+[17-Aug-2022 05:48:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wpcf7_include_module_file() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/1contact-form-7/modules/constant-contact/constant-contact.php:8
+Stack trace:
+#0 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/1contact-form-7/load.php(72): include_once()
+#1 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/1contact-form-7/load.php(38): WPCF7::load_module('constant-contac...')
+#2 /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/1contact-form-7/load.php(105): WPCF7::load_modules()
+#3 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(305): wpcf7()
+#4 /home/customer/www/suryahospitals.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/customer/www/suryahospitals.com/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /home/customer/www/suryahospitals.com/public_html/wp-settings.php(461): do_action('plu in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/1contact-form-7/modules/constant-contact/constant-contact.php on line 8
+[30-Aug-2022 14:26:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php on line 295
+[30-Aug-2022 14:26:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php:295) in /home/customer/www/suryahospitals.com/public_html/wp-includes/pluggable.php on line 1421
+[30-Aug-2022 14:27:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php on line 295
+[30-Aug-2022 14:27:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php:295) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1381
+[30-Aug-2022 14:27:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php on line 295
+[30-Aug-2022 14:27:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php:295) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1381
+[30-Aug-2022 14:27:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php on line 295
+[30-Aug-2022 14:27:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php:295) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1381
+[30-Aug-2022 14:28:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php on line 295
+[30-Aug-2022 14:28:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php:295) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1381
+[30-Aug-2022 14:37:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php on line 295
+[30-Aug-2022 14:37:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php:295) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1381
+[30-Aug-2022 14:38:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php on line 295
+[30-Aug-2022 14:38:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php:295) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1381
+[30-Aug-2022 14:38:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php on line 295
+[30-Aug-2022 14:38:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php:295) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1381
+[30-Aug-2022 14:39:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php on line 295
+[30-Aug-2022 14:39:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php:295) in /home/customer/www/suryahospitals.com/public_html/wp-admin/includes/misc.php on line 1381
+[30-Aug-2022 14:40:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php on line 295
+[30-Aug-2022 14:40:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/visual-portfolio/classes/class-admin.php:295) in /home/customer/www/suryahospitals.com/public_html/wp-includes/pluggable.php on line 1421
+[30-Aug-2022 15:23:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php on line 342
+[30-Aug-2022 15:24:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[30-Aug-2022 15:25:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[30-Aug-2022 15:25:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[30-Aug-2022 15:26:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[30-Aug-2022 15:29:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[30-Aug-2022 15:33:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php on line 342
+[30-Aug-2022 15:34:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[30-Aug-2022 15:47:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php on line 342
+[30-Aug-2022 15:49:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[28-Oct-2022 17:52:24 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:24 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:24 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:24 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[28-Oct-2022 17:52:25 UTC] There was an issue purging the cache for this URL: https://suryahospitals.com/. Error code: 429. Message: Too many client connections in one minute.
+[17-Jan-2023 11:46:17 UTC] WordPress database error Duplicate entry '3170-3168' for key 'PRIMARY' for query INSERT INTO `wp_yoast_indexable_hierarchy` (`indexable_id`, `ancestor_id`, `depth`, `blog_id`) VALUES ('3170', '3168', '1', '1') made by do_action('wp_ajax_save-attachment'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_save_attachment, wp_update_post, wp_insert_attachment, wp_insert_post, do_action('edit_attachment'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Watcher->build_indexable, Yoast\WP\SEO\Builders\Indexable_Builder->build_for_id_and_type, Yoast\WP\SEO\Builders\Indexable_Builder->build, Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->build, Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->save_ancestors, Yoast\WP\SEO\Repositories\Indexable_Hierarchy_Repository->add_ancestor, Yoast\WP\Lib\Model->save, Yoast\WP\Lib\ORM->save, Yoast\WP\Lib\ORM::execute
+[01-Apr-2023 11:34:36 UTC] PHP Warning:  exif_imagetype(/home/customer/www/suryahospitals.com/public_html/wp-content/uploads/wpcode/cache/library/snippets.json): failed to open stream: No such file or directory in /home/customer/www/suryahospitals.com/public_html/wp-includes/functions.php on line 3268
+[01-Apr-2023 11:34:36 UTC] PHP Warning:  file_get_contents(/home/customer/www/suryahospitals.com/public_html/wp-content/uploads/wpcode/cache/library/snippets.json): failed to open stream: No such file or directory in /home/customer/www/suryahospitals.com/public_html/wp-includes/functions.php on line 3291
+[01-Apr-2023 11:34:36 UTC] PHP Warning:  mime_content_type(/home/customer/www/suryahospitals.com/public_html/wp-content/uploads/wpcode/cache/library/snippets.json): failed to open stream: No such file or directory in /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/webp-express/lib/classes/Mime.php on line 26
+[10-Apr-2023 09:16:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/catch-breadcrumb/includes/shortcodes.php:39) in /home/customer/www/suryahospitals.com/public_html/wp-admin/post.php on line 231
+[10-Apr-2023 09:18:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/suryahospitals.com/public_html/wp-content/plugins/catch-breadcrumb/includes/shortcodes.php:39) in /home/customer/www/suryahospitals.com/public_html/wp-admin/post.php on line 231

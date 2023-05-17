@@ -1,0 +1,932 @@
+[02-Jun-2017 16:25:33 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[09-Jun-2017 19:26:59 UTC] PHP Warning:  fopen(/home/kopykat/public_html/suryafinal/wp-content/plugins/accordion-shortcode-and-widget/accordion.php): failed to open stream: No such file or directory in /home/kopykat/public_html/suryafinal/wp-includes/functions.php on line 4784
+[09-Jun-2017 19:26:59 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/kopykat/public_html/suryafinal/wp-includes/functions.php on line 4787
+[09-Jun-2017 19:26:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/kopykat/public_html/suryafinal/wp-includes/functions.php on line 4790
+[10-Jun-2017 16:05:01 UTC] WordPress database error Duplicate column name 'term_reverse' for query ALTER TABLE wp_relevanssi ADD COLUMN term_reverse VARCHAR(50); made by activate_plugin, do_action('activate_relevanssi/relevanssi.php'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, relevanssi_install, _relevanssi_install, relevanssi_create_database_tables
+[10-Jun-2017 16:05:01 UTC] WordPress database error Duplicate key name 'relevanssi_term_reverse_idx' for query CREATE INDEX relevanssi_term_reverse_idx ON wp_relevanssi (term_reverse(10)); made by activate_plugin, do_action('activate_relevanssi/relevanssi.php'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, relevanssi_install, _relevanssi_install, relevanssi_create_database_tables
+[05-Aug-2017 02:20:28 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-admin/includes/theme.php on line 472
+[05-Aug-2017 02:21:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-includes/update.php on line 130
+[05-Aug-2017 02:21:16 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-includes/update.php on line 320
+[05-Aug-2017 02:21:26 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-includes/update.php on line 500
+[09-Aug-2017 23:40:32 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-admin/includes/plugin-install.php on line 165
+[09-Aug-2017 23:42:26 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-admin/includes/plugin-install.php on line 165
+[09-Aug-2017 23:50:10 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-admin/includes/plugin-install.php on line 165
+[09-Aug-2017 23:59:16 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-admin/includes/plugin-install.php on line 165
+[10-Aug-2017 00:04:47 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-admin/includes/plugin-install.php on line 165
+[10-Aug-2017 00:07:55 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-admin/includes/plugin-install.php on line 165
+[10-Aug-2017 07:45:56 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-admin/includes/plugin-install.php on line 165
+[10-Aug-2017 07:46:36 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-admin/includes/plugin-install.php on line 165
+[10-Aug-2017 07:47:16 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-admin/includes/plugin-install.php on line 165
+[10-Aug-2017 07:47:56 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-admin/includes/plugin-install.php on line 165
+[10-Aug-2017 07:48:36 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/surya/public_html/wp-admin/includes/plugin-install.php on line 165
+[12-Aug-2017 04:08:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[12-Aug-2017 04:09:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[12-Aug-2017 04:10:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[12-Aug-2017 04:12:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[12-Aug-2017 04:12:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[12-Aug-2017 04:12:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[12-Aug-2017 04:12:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[12-Aug-2017 04:12:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[12-Aug-2017 04:12:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[12-Aug-2017 04:12:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[12-Aug-2017 04:12:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[12-Aug-2017 04:12:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[12-Aug-2017 04:12:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/surya/public_html/wp-content/themes/CherryFramework/functions.php on line 1707
+[25-Sep-2017 09:31:22 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 10:06:20 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 10:09:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 10:12:42 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 10:14:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 10:16:23 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 10:20:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 10:31:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 10:32:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 10:37:51 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 10:41:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 10:43:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 10:59:07 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[25-Sep-2017 11:00:26 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 11:18:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 11:18:42 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 11:20:43 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 11:21:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 11:21:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 11:26:49 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 11:31:03 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 11:33:40 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 13:22:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 13:36:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 13:36:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 13:36:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 13:38:16 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Sep-2017 13:41:17 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[03-Oct-2017 07:03:17 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:04:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:08:32 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:08:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:08:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:09:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:09:20 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:09:25 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:09:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:09:47 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:09:51 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:09:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:10:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:10:05 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:10:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:10:28 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:10:34 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:10:45 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:11:06 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 07:11:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 09:38:44 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[03-Oct-2017 09:39:04 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[03-Oct-2017 09:48:00 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 10:14:04 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[03-Oct-2017 10:14:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[09-Oct-2017 08:45:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[09-Oct-2017 08:49:30 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[09-Oct-2017 08:49:49 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[09-Oct-2017 08:50:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[09-Oct-2017 08:50:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[09-Oct-2017 08:53:42 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[09-Oct-2017 08:53:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[09-Oct-2017 08:54:23 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[09-Oct-2017 08:54:58 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[09-Oct-2017 08:55:23 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[09-Oct-2017 08:58:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[09-Oct-2017 08:59:30 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[09-Oct-2017 09:00:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 11:11:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:13:15 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:13:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:15:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:16:02 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:17:00 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:17:28 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:18:05 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:19:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:20:14 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:20:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:24:59 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 11:25:48 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:26:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:28:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:30:07 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:30:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:37:46 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:39:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:50:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:53:18 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 11:54:26 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 12:03:45 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 12:04:16 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 12:08:51 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 12:09:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 12:09:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 12:23:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 12:54:25 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 12:58:48 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 12:59:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 13:00:05 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 13:00:16 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 13:00:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 13:00:48 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 13:01:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 13:01:18 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 13:01:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 13:01:59 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 13:02:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[13-Oct-2017 13:02:42 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 13:06:58 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 13:07:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 13:07:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 for query 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM xsyoast_seo_meta
+			    WHERE object_id IN ( %1$s ) made by WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[13-Oct-2017 13:07:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[14-Oct-2017 04:36:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[14-Oct-2017 04:49:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[26-Oct-2017 12:54:30 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[26-Oct-2017 12:55:17 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[26-Oct-2017 12:56:02 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[27-Oct-2017 06:50:07 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 06:35:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 06:36:21 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 06:38:34 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 06:39:30 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 06:40:06 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 06:47:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 06:49:42 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 06:54:18 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 06:55:38 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 07:09:45 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 07:19:46 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 07:20:28 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 07:29:46 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 07:37:45 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 09:11:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 09:13:32 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 09:14:25 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 10:31:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 10:33:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 10:36:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 10:41:49 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 10:47:15 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 12:14:32 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 12:15:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 12:16:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 12:20:02 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 12:33:51 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[30-Oct-2017 12:35:16 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[31-Oct-2017 12:57:03 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[31-Oct-2017 12:59:46 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count
+[31-Oct-2017 13:00:31 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 for query 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count

@@ -1,0 +1,2 @@
+[06-Sep-2022 12:08:58 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/blocks/archives.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/suryahospitals.com/public_html/wp-includes/blocks/index.php on line 9
+[19-Sep-2022 16:30:54 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/blocks/archives.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/suryahospitals.com/public_html/wp-includes/blocks/index.php on line 9

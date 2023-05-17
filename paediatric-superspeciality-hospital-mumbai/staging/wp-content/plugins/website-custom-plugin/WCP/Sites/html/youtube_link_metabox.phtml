@@ -1,0 +1,11 @@
+<?php global $post;?>
+    <div class="row">
+    	<label for="vs-youtube_link">Youtube link : </label>
+        <input type="text" name="vs[youtube_link]" value="<?php echo get_post_meta($post->ID, 'youtube_link', true);?>" id="vs-youtube_link">
+        <p>Ex : https://www.youtube.com/embed/WLEF4x__GG0</p>
+	</div>
+<style>
+#video-slider-meta label {    width: 150px;    display: inline-block;    vertical-align: middle;}
+#video-slider-meta input{    display: inline-block;    vertical-align: middle;width: 550px;}
+#video-slider-meta .row {    margin: 0 0 12px;}
+</style>

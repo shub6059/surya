@@ -1,0 +1,28 @@
+<?php
+$subsites = get_sites();
+?>
+<!--replace popup class = 'addnewpopup' or create new ID -->
+<div class="popupwrapper site_popup" style="display:none;">
+	<div class="popuprow">
+		<h3 class="popup_title">Select Location</h3>
+		<form id="addform" method="POST" class="addform">
+            <div>
+            	<select name="" id="location_dropdown" class="">
+                	<option value="" site="">Please select your location</option>
+	            	<?php foreach( (array)$subsites as $subsite  ){
+						$blog_details = get_blog_details($subsite->blog_id);
+						//echo "<pre style='text-align:left;'>";print_r( $blog_details );echo "</pre>";
+					?>
+						<option site="<?php echo $blog_details->siteurl?>"><?php echo $blog_details->blogname?></option>
+	                <?php } ?>
+                </select>
+            </div>            
+			<div>
+				<input type="submit" name="Submit" value="Confirm" class="btn location_conf_btn">
+                <input type="button" value="Don't show again" class="btn dontshowagain">
+			</div>
+			<div style="margin-top:10px;color:green;" class="success"></div>
+		</form>
+	</div>
+	<div class="popupclose"></div>
+</div>
